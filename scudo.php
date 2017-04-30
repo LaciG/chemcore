@@ -70,7 +70,7 @@
   <div class="container">
     <div class="row">
       <div class="termekek col-xs-12 col-md-6 bg1">
-        <div class="col-xs-12 col-md-4"> <img src="img/scudo-mosogel-color.png" alt="" class="img-responsive"> </div>
+        <div class="col-xs-12 col-md-4"> <img src="<?php echo $lang['SCUDO_ITEM_NAME_1_PIC']; ?>" alt="" class="img-responsive"> </div>
         <div class="col-xs-12 col-md-8">
           <h3 class="text-capitalize"><?php echo $lang['SCUDO_ITEM_NAME_1']; ?><br>
             <span>1,5l / 3l /4,5l</span></h3>
@@ -82,7 +82,7 @@
         <button class="btn btn-primary text-uppercase"><?php echo $lang['SCUDO_ITEM_BUTTON']; ?></button>
         </a> </div>
       <div class="termekek col-xs-12 col-md-6 bg2">
-        <div class="col-xs-12 col-md-4"> <img src="img/scudo-mosogel-white.png" alt="" class="img-responsive"> </div>
+        <div class="col-xs-12 col-md-4"> <img src="<?php echo $lang['SCUDO_ITEM_NAME_2_PIC']; ?>" alt="" class="img-responsive"> </div>
         <div class="col-xs-12 col-md-8">
           <h3 class="text-capitalize"><?php echo $lang['SCUDO_ITEM_NAME_2']; ?><br>
             <span>1,5l / 3l /4,5l</span></h3>
@@ -107,7 +107,7 @@
   <div class="container">
     <div class="row">
       <div class="termekek col-xs-12 col-md-6 bg1">
-        <div class="col-xs-12 col-md-4"> <img src="img/scudo-konyhai-mosogatoszer.png" alt="" class="img-responsive"> </div>
+        <div class="col-xs-12 col-md-4"> <img src="<?php echo $lang['SCUDO_ITEM_NAME_3_PIC']; ?>" alt="" class="img-responsive"> </div>
         <div class="col-xs-12 col-md-8">
           <h3 class="text-capitalize"><?php echo $lang['SCUDO_ITEM_NAME_3']; ?><br>
             <span><?php echo $lang['SCUDO_ITEM_NAME_3_SPECS']; ?></span></h3>
@@ -119,7 +119,7 @@
         <button class="btn btn-primary text-uppercase"><?php echo $lang['SCUDO_ITEM_BUTTON']; ?></button>
         </a> </div>
       <div class="termekek col-xs-12 col-md-6 bg2">
-        <div class="col-xs-12 col-md-4"> <img src="img/scudo-konyhai-mosogatoszer5l.png" alt="" class="img-responsive"> </div>
+        <div class="col-xs-12 col-md-4"> <img src="<?php echo $lang['SCUDO_ITEM_NAME_4_PIC']; ?>" alt="" class="img-responsive"> </div>
         <div class="col-xs-12 col-md-8">
           <h3 class="text-capitalize"><?php echo $lang['SCUDO_ITEM_NAME_4']; ?><br>
             <span><?php echo $lang['SCUDO_ITEM_NAME_4_SPECS']; ?></span></h3>
@@ -144,7 +144,7 @@
   <div class="container">
     <div class="row">
       <div class="termekek col-xs-12 col-md-6 bg1">
-        <div class="col-xs-12 col-md-4"> <img src="img/scudo-mosogel-kapszula-color.png" alt="" class="img-responsive"> </div>
+        <div class="col-xs-12 col-md-4"> <img src="<?php echo $lang['SCUDO_ITEM_NAME_5_PIC']; ?>" alt="" class="img-responsive"> </div>
         <div class="col-xs-12 col-md-8">
           <h3 class="text-capitalize"><?php echo $lang['SCUDO_ITEM_NAME_5']; ?><br>
             <span>30 db</span></h3>
@@ -156,7 +156,7 @@
         <button class="btn btn-primary text-uppercase"><?php echo $lang['SCUDO_ITEM_BUTTON']; ?></button>
         </a> </div>
       <div class="termekek col-xs-12 col-md-6 bg2">
-        <div class="col-xs-12 col-md-4"> <img src="img/scudo-mosogel-kapszula-white.png" alt="" class="img-responsive"> </div>
+        <div class="col-xs-12 col-md-4"> <img src="<?php echo $lang['SCUDO_ITEM_NAME_6_PIC']; ?>" alt="" class="img-responsive"> </div>
         <div class="col-xs-12 col-md-8">
           <h3 class="text-capitalize"><?php echo $lang['SCUDO_ITEM_NAME_6']; ?><br>
             <span>30 db</span></h3>
@@ -181,7 +181,7 @@
   <div class="container">
     <div class="row">
       <div class="termekek col-xs-12 col-md-6 bg1">
-        <div class="col-xs-12 col-md-4"> <img src="img/scudo-furdoszobai-tisztitoszer.png" alt="" class="img-responsive"> </div>
+        <div class="col-xs-12 col-md-4"> <img src="<?php echo $lang['SCUDO_ITEM_NAME_7_PIC']; ?>" alt="" class="img-responsive"> </div>
         <div class="col-xs-12 col-md-8">
           <h3 class="text-capitalize"><?php echo $lang['SCUDO_ITEM_NAME_7']; ?><br>
             <span>750 ml</span></h3>
@@ -193,7 +193,7 @@
         <button class="btn btn-primary text-uppercase"><?php echo $lang['SCUDO_ITEM_BUTTON']; ?></button>
         </a> </div>
       <div class="termekek col-xs-12 col-md-6 bg2">
-        <div class="col-xs-12 col-md-4"> <img src="img/scudo-fa-butorapolo-folyadek.png" alt="" class="img-responsive"> </div>
+        <div class="col-xs-12 col-md-4"> <img src="<?php echo $lang['SCUDO_ITEM_NAME_8_PIC']; ?>" alt="" class="img-responsive"> </div>
         <div class="col-xs-12 col-md-8">
           <h3 class="text-capitalize"><?php echo $lang['SCUDO_ITEM_NAME_8']; ?><br>
             <span>500 ml</span></h3>
@@ -205,7 +205,7 @@
         <button class="btn btn-primary text-uppercase"><?php echo $lang['SCUDO_ITEM_BUTTON']; ?></button>
         </a> </div>
       <div class="termekek col-xs-12 col-md-6 bg3">
-        <div class="col-xs-12 col-md-4"> <img src="img/scudo-muanyagbutor-tisztito-folyadek.png" alt="" class="img-responsive"> </div>
+        <div class="col-xs-12 col-md-4"> <img src="<?php echo $lang['SCUDO_ITEM_NAME_9_PIC']; ?>" alt="" class="img-responsive"> </div>
         <div class="col-xs-12 col-md-8">
           <h3 class="text-capitalize"><?php echo $lang['SCUDO_ITEM_NAME_9']; ?><br>
             <span>750 ml</span></h3>
@@ -217,7 +217,7 @@
         <button class="btn btn-primary text-uppercase"><?php echo $lang['SCUDO_ITEM_BUTTON']; ?></button>
         </a> </div>
       <div class="termekek col-xs-12 col-md-6 bg4">
-        <div class="col-xs-12 col-md-4"> <img src="img/scudo-zsiroldo.png" alt="" class="img-responsive"> </div>
+        <div class="col-xs-12 col-md-4"> <img src="<?php echo $lang['SCUDO_ITEM_NAME_10_PIC']; ?>" alt="" class="img-responsive"> </div>
         <div class="col-xs-12 col-md-8">
           <h3 class="text-capitalize"><?php echo $lang['SCUDO_ITEM_NAME_10']; ?><br>
             <span>750 ml</span></h3>
@@ -229,7 +229,7 @@
         <button class="btn btn-primary text-uppercase"><?php echo $lang['SCUDO_ITEM_BUTTON']; ?></button>
         </a></div>
       <div class="termekek col-xs-12 col-md-6 bg1">
-        <div class="col-xs-12 col-md-4"> <img src="img/scudo-vizlagyito-gel.png" alt="" class="img-responsive"> </div>
+        <div class="col-xs-12 col-md-4"> <img src="<?php echo $lang['SCUDO_ITEM_NAME_11_PIC']; ?>" alt="" class="img-responsive"> </div>
         <div class="col-xs-12 col-md-8">
           <h3 class="text-capitalize"><?php echo $lang['SCUDO_ITEM_NAME_11']; ?><br>
             <span>1000 ml</span></h3>

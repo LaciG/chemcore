@@ -117,10 +117,12 @@ $lang['MESSAGE_REST'] =" Thank you for your message, we will contact you as soon
 //PAGE SCUDO
     $lang['SCUDO_TITLE_1'] = "scudo mosógélek";
 
+        $lang['SCUDO_ITEM_NAME_1_PIC'] = "img/scudo-mosogel-color.png";
         $lang['SCUDO_ITEM_NAME_1'] = "Mosógél color";
         $lang['SCUDO_ITEM_NAME_1_DESC'] = "<li>Használható gépi illetve kézi mosáshoz is egyaránt.</li>
             <li>Minden ruhatípushoz alkalmazható, védi és megőrzi ruhái eredeti színét.</li>
             <li>15/30/45 mosáshoz</li>";
+        $lang['SCUDO_ITEM_NAME_2_PIC'] = "img/scudo-mosogel-white.png";
         $lang['SCUDO_ITEM_NAME_2'] = "Mosógél white";
         $lang['SCUDO_ITEM_NAME_2_DESC'] = "<li>Használható gépi illetve kézi mosáshoz is egyaránt.</li>
             <li>Eltávolítja a makacs foltokat és kellemes
@@ -129,33 +131,42 @@ $lang['MESSAGE_REST'] =" Thank you for your message, we will contact you as soon
 
     $lang['SCUDO_TITLE_2'] = "scudo konyhai mosogatószerek";
 
+        $lang['SCUDO_ITEM_NAME_3_PIC'] = "img/scudo-konyhai-mosogatoszer.png";
         $lang['SCUDO_ITEM_NAME_3'] = "konyhai mosogatószer";
         $lang['SCUDO_ITEM_NAME_3_SPECS'] = "0,5l/1l | Citrom és zöldalma illattal";
         $lang['SCUDO_ITEM_NAME_3_DESC'] = "Tökéletesen eltávolítja a zsírt és az olajos szennyeződéseket.";
+        $lang['SCUDO_ITEM_NAME_4_PIC'] = "img/scudo-konyhai-mosogatoszer5l.png";
         $lang['SCUDO_ITEM_NAME_4'] = "konyhai mosogatószer";
         $lang['SCUDO_ITEM_NAME_4_SPECS'] = "5l | Praktikus nagykiszerelés | Friss citrusos illattal | Professzionális - és lakossági használatra";
         $lang['SCUDO_ITEM_NAME_4_DESC'] = "<li>Tökéletesen eltávolítja a zsírt és az olajos szennyeződéseket.</li>";
 
     $lang['SCUDO_TITLE_3'] = "scudo mosógél kapszulák";
 
+        $lang['SCUDO_ITEM_NAME_5_PIC'] = "img/scudo-mosogel-kapszula-color.png";
         $lang['SCUDO_ITEM_NAME_5'] = "mosógél kapszula color";
         $lang['SCUDO_ITEM_NAME_5_DESC'] = "<li>Egykamrás mosógél kapszula, koncentrált mosószer, praktikus előre kiadagolt formában, aktív színvédelemmel.</li>";
+        $lang['SCUDO_ITEM_NAME_6_PIC'] = "img/scudo-mosogel-kapszula-white.png";
         $lang['SCUDO_ITEM_NAME_6'] = "Mosógél kapszula white";
         $lang['SCUDO_ITEM_NAME_6_DESC'] = "<li>Egykamrás mosógél kapszula, koncentrált mosószer, praktikus előre kiadagolt formában, aktív színvédelemmel.</li>";
 
     $lang['SCUDO_TITLE_4'] = "scudo tisztítószerek";
 
+        $lang['SCUDO_ITEM_NAME_7_PIC'] = "img/scudo-furdoszobai-tisztitoszer.png";
         $lang['SCUDO_ITEM_NAME_7'] = "fürdőszobai tisztítószer";
         $lang['SCUDO_ITEM_NAME_7_DESC'] = "<li>A fürdőszobai tisztító eltávolítja a vízkövet, szappanmaradékokat és egyéb szennyeződéseket is fürdőszobájában.</li>
             <li>Használata után csillogást biztosít.</li>";
+        $lang['SCUDO_ITEM_NAME_8_PIC'] = "img/scudo-fa-butorapolo-folyadek.png";
         $lang['SCUDO_ITEM_NAME_8'] = "fa - és bútorápoló folyadék";
         $lang['SCUDO_ITEM_NAME_8_DESC'] = "<li>Kényelmesen és gyorsan tisztítja, ápolja és óvja a bútorokat.</li>
             <li>Kellemes illatot kölcsönöz, és hosszantartó fényről gondoskodik.</li>";
+        $lang['SCUDO_ITEM_NAME_9_PIC'] = "img/scudo-muanyagbutor-tisztito-folyadek.png";
         $lang['SCUDO_ITEM_NAME_9'] = "műanyagbútor - tisztító folyadék";
         $lang['SCUDO_ITEM_NAME_9_DESC'] = "<li>Kényelmesen és gyorsan tisztítja speciálisan a műanyag bútorokat.</li>
             <li>Friss illatot hagy maga után.</li>";
+        $lang['SCUDO_ITEM_NAME_10_PIC'] = "img/scudo-zsiroldo.png";
         $lang['SCUDO_ITEM_NAME_10'] = "zsíroldó";
         $lang['SCUDO_ITEM_NAME_10_DESC'] = "<li>Használatával a legmakacsabb zsíros szennyeződések is könnyedén eltávolíthatóak.</li>";
+        $lang['SCUDO_ITEM_NAME_11_PIC'] = "img/scudo-vizlagyito-gel.png";
         $lang['SCUDO_ITEM_NAME_11'] = "vízlágyító gél";
         $lang['SCUDO_ITEM_NAME_11_DESC'] = "<li>Hatékonyan lágyítja a vizet, ahol arra szüksége van a háztartásban, megfelelően lágy vizet biztosít a háztartás technikai készülékei számára.</li>";
 
