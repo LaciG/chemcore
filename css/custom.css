@@ -706,6 +706,7 @@ footer .navbar-nav > li {
 @media only screen and (max-width : 767px) {
 .jumbotron .row + .row {
 	margin-left: 0px;
+	margin-right: 0px;
 	margin-top: 55px;
 }
 .xs-bg {
