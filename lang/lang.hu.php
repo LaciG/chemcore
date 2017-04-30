@@ -74,19 +74,19 @@ $lang['MESSAGE_REST'] ="Köszönjük, amint tudunk kapcsoaltba lépünk önnel."
 //PAGE LILY
 	$lang['LILY_TITLE_1'] = "Lily Mosógélek";
     
-    $lang['LILY_ITEM_NAME_1_PIC'] = "";
+    $lang['LILY_ITEM_NAME_1_PIC'] = "img/mosogel-kapszula-color.png";
     $lang['LILY_ITEM_NAME_1'] = "Mosógél kapszula color";
     $lang['LILY_ITEM_NAME_1_DESC'] = "<li>Kétkamrás mosógél kapszula, mosógél koncentrátum és folteltávolító adalékanyaggal-és színvédelemmel 2/1-ben, praktikus előre kiadagolt formában.</li>";
-    $lang['LILY_ITEM_NAME_2_PIC'] = "";
+    $lang['LILY_ITEM_NAME_2_PIC'] = "img/mosogel-kapszula-white.png";
     $lang['LILY_ITEM_NAME_2'] = "Mosógél kapszula white";
     $lang['LILY_ITEM_NAME_2_DESC'] = "<li>Kétkamrás mosógél kapszula, mosógél koncentrátum és folteltávolító adalékanyaggal-és optikai fehérítővel a kristálytiszta fehér ruhákért – 2/1-ben, praktikus előre kiadagolt formában. </li>";
-    $lang['LILY_ITEM_NAME_3_PIC'] = "";
+    $lang['LILY_ITEM_NAME_3_PIC'] = "img/mososzer-color.png";
     $lang['LILY_ITEM_NAME_3'] = "Mosószer color";
     $lang['LILY_ITEM_NAME_3_DESC'] = "<li>Minőségi, koncentrált mosószer többféle tenzid és az enzim erejével</li>
               <li>Egyaránt használható gépi illetve kézi mosáshoz is.</li>
               <li>Minden ruhatípushoz alkalmazható, védi és megőrzi ruhái eredeti színét.</li>
               <li>30/45/90 mosás</li>";
-    $lang['LILY_ITEM_NAME_4_PIC'] = "";
+    $lang['LILY_ITEM_NAME_4_PIC'] = "img/mososzer-white.png";
     $lang['LILY_ITEM_NAME_4'] = "Mosószer white";
     $lang['LILY_ITEM_NAME_4_DESC'] = "<li>Minőségi, koncentrált mosószer többféle tenzid és az enzim erejével</li>
               <li>Egyaránt használható gépi illetve kézi mosáshoz is.</li>
@@ -95,19 +95,19 @@ $lang['MESSAGE_REST'] ="Köszönjük, amint tudunk kapcsoaltba lépünk önnel."
 
     $lang['LILY_TITLE_2'] = "Lily Mosószerek";
 
-    $lang['LILY_ITEM_NAME_5_PIC'] = "";
+    $lang['LILY_ITEM_NAME_5_PIC'] = "img/mosopor-color.png";
     $lang['LILY_ITEM_NAME_5'] = "Mosópor color";
     $lang['LILY_ITEM_NAME_5_DESC'] = "<li>30/60 mosás</li>
               <li>Minőségi mosópor színes ruhákhoz ajánlva</li>";
-    $lang['LILY_ITEM_NAME_6_PIC'] = "";
+    $lang['LILY_ITEM_NAME_6_PIC'] = "img/mosopor-white.png";
     $lang['LILY_ITEM_NAME_6'] = "Mosópor white";
     $lang['LILY_ITEM_NAME_6_DESC'] = "<li>K30/60 mosás</li>
               <li>Minőségi mosóspor, kifejezetten fehér és nem színtartó ruhák, pelenkák mosásához, aktív folteltávolító hatással.</li>";
-    $lang['LILY_ITEM_NAME_7_PIC'] = "";
+    $lang['LILY_ITEM_NAME_7_PIC'] = "img/mosopor-universal.png";
     $lang['LILY_ITEM_NAME_7'] = "Mosópor universal";
     $lang['LILY_ITEM_NAME_7_DESC'] = "<li>90 mosás</li>
               <li>Minőségi mosóspor színes és fehér ruhákhoz egyaránt ajánlva</li>";
-    $lang['LILY_ITEM_NAME_8_PIC'] = "";
+    $lang['LILY_ITEM_NAME_8_PIC'] = "img/textiloblito.png";
     $lang['LILY_ITEM_NAME_8'] = "textilöblítő";
     $lang['LILY_ITEM_8_SPECS'] = "<span>1 l-es kiszerelésben | 3 féle illattal: friss üde óceán illattal (kék) | selymes édes illattal (rózsa) kellemes parfüm illattal (sárga)</span>";
     $lang['LILY_ITEM_NAME_8_DESC'] = "<li>Szálpuhító hatású, ezáltal óvja a textil szálakat, kellemes illatot biztosít ruhái számára.</li>";

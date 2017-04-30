@@ -69,7 +69,7 @@
     <div class="container">
       <div class="row">
         <div class="termekek col-xs-12 col-md-6 bg1">
-          <div class="col-xs-12 col-md-4"> <img src="img/mosogel-kapszula-color.png" alt="" class="img-responsive"> </div>
+          <div class="col-xs-12 col-md-4"> <img src="<?php echo $lang['LILY_ITEM_NAME_1_PIC']; ?>" alt="" class="img-responsive"> </div>
           <div class="col-xs-12 col-md-8">
             <h3 class="text-capitalize"><?php echo $lang['LILY_ITEM_NAME_1']; ?><br>
               <span>15 db</span></h3>
@@ -81,7 +81,7 @@
           <button class="btn btn-primary text-uppercase"><?php echo $lang['LILY_BUTTON']; ?></button>
           </a> </div>
         <div class="termekek col-xs-12 col-md-6 bg2">
-          <div class="col-xs-12 col-md-4"> <img src="img/mosogel-kapszula-white.png" alt="" class="img-responsive"> </div>
+          <div class="col-xs-12 col-md-4"> <img src="<?php echo $lang['LILY_ITEM_NAME_2_PIC']; ?>" alt="" class="img-responsive"> </div>
           <div class="col-xs-12 col-md-8">
             <h3 class="text-capitalize"><?php echo $lang['LILY_ITEM_NAME_2']; ?><br>
               <span>15 db</span></h3>
@@ -93,7 +93,7 @@
           <button class="btn btn-primary text-uppercase"><?php echo $lang['LILY_BUTTON']; ?></button>
           </a> </div>
         <div class="termekek col-xs-12 col-md-6 bg3">
-          <div class="col-xs-12 col-md-4"> <img src="img/mososzer-color.png" alt="" class="img-responsive"> </div>
+          <div class="col-xs-12 col-md-4"> <img src="<?php echo $lang['LILY_ITEM_NAME_3_PIC']; ?>" alt="" class="img-responsive"> </div>
           <div class="col-xs-12 col-md-8">
             <h3 class="text-capitalize"><?php echo $lang['LILY_ITEM_NAME_3']; ?><br>
               <span>1,5l/3l/4,5l</span></h3>
@@ -105,7 +105,7 @@
           <button class="btn btn-primary text-uppercase"><?php echo $lang['LILY_BUTTON']; ?></button>
           </a> </div>
         <div class="termekek col-xs-12 col-md-6 bg4">
-          <div class="col-xs-12 col-md-4"> <img src="img/mososzer-white.png" alt="" class="img-responsive"> </div>
+          <div class="col-xs-12 col-md-4"> <img src="<?php echo $lang['LILY_ITEM_NAME_4_PIC']; ?>" alt="" class="img-responsive"> </div>
           <div class="col-xs-12 col-md-8">
             <h3 class="text-capitalize"><?php echo $lang['LILY_ITEM_NAME_4']; ?><br>
               <span>1,5l/3l/4,5l</span></h3>
@@ -130,7 +130,7 @@
     <div class="container">
       <div class="row">
         <div class="termekek col-xs-12 col-md-6 bg1">
-          <div class="col-xs-12 col-md-4"> <img src="img/mosopor-color.png" alt="" class="img-responsive"> </div>
+          <div class="col-xs-12 col-md-4"> <img src="<?php echo $lang['LILY_ITEM_NAME_5_PIC']; ?>" alt="" class="img-responsive"> </div>
           <div class="col-xs-12 col-md-8">
             <h3 class="text-capitalize"><?php echo $lang['LILY_ITEM_NAME_5']; ?><br>
               <span>3kg/6kg</span></h3>
@@ -142,7 +142,7 @@
           <button class="btn btn-primary text-uppercase"><?php echo $lang['LILY_BUTTON']; ?></button>
           </a> </div>
         <div class="termekek col-xs-12 col-md-6 bg2">
-          <div class="col-xs-12 col-md-4"> <img src="img/mosopor-white.png" alt="" class="img-responsive"> </div>
+          <div class="col-xs-12 col-md-4"> <img src="<?php echo $lang['LILY_ITEM_NAME_6_PIC']; ?>" alt="" class="img-responsive"> </div>
           <div class="col-xs-12 col-md-8">
             <h3 class="text-capitalize"><?php echo $lang['LILY_ITEM_NAME_6']; ?><br>
               <span>3kg/6kg</span></h3>
@@ -154,7 +154,7 @@
           <button class="btn btn-primary text-uppercase"><?php echo $lang['LILY_BUTTON']; ?></button>
           </a> </div>
         <div class="termekek col-xs-12 col-md-6 bg3">
-          <div class="col-xs-12 col-md-4"> <img src="img/mosopor-universal.png" alt="" class="img-responsive"> </div>
+          <div class="col-xs-12 col-md-4"> <img src="<?php echo $lang['LILY_ITEM_NAME_7_PIC']; ?>" alt="" class="img-responsive"> </div>
           <div class="col-xs-12 col-md-8">
             <h3 class="text-capitalize"><?php echo $lang['LILY_ITEM_NAME_7']; ?><br>
               <span>9kg</span></h3>
@@ -166,10 +166,10 @@
           <button class="btn btn-primary text-uppercase"><?php echo $lang['LILY_BUTTON']; ?></button>
           </a> </div>
         <div class="termekek col-xs-12 col-md-6 bg4">
-          <div class="col-xs-12 col-md-4"> <img src="img/textiloblito.png" alt="" class="img-responsive"> </div>
+          <div class="col-xs-12 col-md-4"> <img src="<?php echo $lang['LILY_ITEM_NAME_8_PIC']; ?>" alt="" class="img-responsive"> </div>
           <div class="col-xs-12 col-md-8">
             <h3 class="text-capitalize"><?php echo $lang['LILY_ITEM_NAME_8']; ?><br>
-              <?php echo $lang['LILY_ITEM_NAME_8_SPECS']; ?></h3>
+              <?php echo $lang['LILY_ITEM_8_SPECS']; ?></h3>
             <ul>
               <?php echo $lang['LILY_ITEM_NAME_8_DESC']; ?>
             </ul>
