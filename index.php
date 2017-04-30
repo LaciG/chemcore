@@ -86,25 +86,22 @@
     <div class="row">
       <div class="col-sm-12">
         <hr>
-        <h2 class="text-capitalize text-center">háztartási-vegyipari termékek</h2>
+        <h2 class="text-capitalize text-center"><?php echo $lang['USAGE_TITLE']; ?></h2>
       </div>
       <div class="col-xs-12 col-sm-4 text-center box-shadow">
         <div class="border50"> <img src="img/stars_ikon-01.svg" class="img-responsive" alt="logo-csillag"></div>
-        <h3 class="text-capitalize">számos használatra</h3>
-        <p>A tisztítás, takarítás és higiénia számos
-          területét felölelő termékkínálat. </p>
+        <h3 class="text-capitalize"><?php echo $lang['USAGE_BOX_TITLE_1']; ?></h3>
+        <p><?php echo $lang['USAGE_BOX_TEXT_1']; ?> </p>
       </div>
       <div class="col-xs-12 col-sm-4 text-center box-shadow">
         <div class="border50middle"> <img src="img/hatekony_ikon-01.svg" class="img-responsive" alt="logo-ház"></div>
-        <h3 class="text-capitalize color-middle">hatékony termékek</h3>
-        <p>Gyors és eredményes megoldást nyújtunk
-          minden otthon számára. </p>
+        <h3 class="text-capitalize color-middle"><?php echo $lang['USAGE_BOX_TITLE_2']; ?></h3>
+        <p><?php echo $lang['USAGE_BOX_TEXT_2']; ?> </p>
       </div>
       <div class="col-xs-12 col-sm-4 text-center box-shadow">
         <div class="border50"> <img src="img/termekpaletta_ikon-01.svg" class="img-responsive" alt="logo-termékpaletta"></div>
-        <h3 class="text-capitalize">színes termékpaletta</h3>
-        <p>Magas használati érték, bőséges kínálat,
-          széles választék. </p>
+        <h3 class="text-capitalize"><?php echo $lang['USAGE_BOX_TITLE_3']; ?></h3>
+        <p><?php echo $lang['USAGE_BOX_TEXT_3']; ?></p>
       </div>
     </div>
   </div>
@@ -114,14 +111,14 @@
     <div class="row">
       <div class="col-xs-12 col-md-offset-1 col-md-4"><img src="img/washing-powder.jpg" alt="washing-powder" class="img-responsive"> </div>
       <div class="col-xs-12 col-md-offset-1 col-md-4" id="lily-anchor">
-        <h2 class="text-uppercase">lily termékcsalád</h2>
-        <p class="text-justify">A Lily termékcsalád a textíliák megfelelő tisztítását, mosását, egyéb elő-és utókezelését biztosító termékeket tartalmaz (áztatástól, mosáson át- folyékony mosószerrel, kapszulált mosógéllel, mosóporral, egészen a kimagasló minőségű szálpuhításig). Prémium minőségű termékek tartoznak ebbe a katergóriába. Magas minőségű piacvezető mosószerek alapján lettek kifejlesztve, figyelve maradéktalanul a vásárlói elvárásokra.<br>
+        <h2 class="text-uppercase"><?php echo $lang['LILY_TITLE']; ?></h2>
+        <p class="text-justify"><?php echo $lang['LILY_TEXT_1']; ?><br>
           <br>
-          A mosó-és tisztítószerek magas koncentrációban felületaktív anyagokat, enzimeket, különböző gondosan összeválogatott mosó-és tisztítóhatást fokozó adalékanyagot  (szálpuhító, optikai fehérítő, színvédő, klórmentes konzerváló, oxigénes fehérítő) és magas minőségű illatanyagokat tartalmaznak.<br>
+          <?php echo $lang['LILY_TEXT_2']; ?><br>
           <br>
-          Mosó-és tisztítószereink összetételüket, csomagolásukat és a szükséges termék dokumentációt tekintve, úgy lettek kialakítva, hogy a mindenkori, érvényben lévő hazai-és nemzetközi  jogszabályoknak megfeleljenek. </p>
-        <a href="lily.html">
-        <button class="btn btn-primary text-uppercase">tovább</button>
+          <?php echo $lang['LILY_TEXT_3']; ?></p>
+        <a href="lily.php">
+        <button class="btn btn-primary text-uppercase"><?php echo $lang['LILY_BUTTON']; ?></button>
         </a> </div>
     </div>
   </div>
@@ -130,14 +127,14 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-xs-12 col-md-offset-2 col-md-4">
-        <h2 class="text-uppercase">scudo termékcsalád</h2>
-        <p class="text-justify">A Scudo termékcsalád, megfelelő árért, megfelelő minőségű tisztítást garantál a háztartás egész területén, a konyhától a nappalin keresztül a fürdőszobáig.<br>
+        <h2 class="text-uppercase"><?php echo $lang['SCUDO_TITLE']; ?></h2>
+        <p class="text-justify"><?php echo $lang['SCUDO_TEXT_1']; ?><br>
           <br>
-          A termékek minőségi alapanyagokat tartalmaznak a megfelelő hatás elérése érdekében. Praktikus megoldást jelentenek a háztartás bármely területén. A termékpaletta úgy lett kifejlesztve/összeállítva, hogy az otthonok minden területét tisztán tarthassák a termékcsalád tagjainak használatával (pl. vízlágyítótól a fa-és bútorápolón keresztül a mosogatószerig).<br>
+          <?php echo $lang['SCUDO_TEXT_2']; ?><br>
           <br>
-          A mosó-és tisztítószerek felületaktív anyagokat, enzimeket, különböző gondosan összeválogatott mosó-és tisztítóhatást fokozó adalékanyagot tartalmaznak. </p>
-        <a href="scudo.html">
-        <button class="btn btn-primary text-uppercase">tovább</button>
+          <?php echo $lang['SCUDO_TEXT_3']; ?></p>
+        <a href="scudo.php">
+        <button class="btn btn-primary text-uppercase"><?php echo $lang['SCUDO_BUTTON']; ?></button>
         </a> </div>
       <div class="col-xs-12 col-md-offset-1 col-md-4"><img src="img/made-cleaning.jpg" alt="made-cleaning" class="img-responsive"> </div>
     </div>
@@ -147,47 +144,69 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-sm-4">
-        <h3 class="text-capitalize">kapcsolat</h3>
+        <h3 class="text-capitalize"><?php echo $lang['CONTACT_TITLE']; ?></h3>
         <address>
         <p> ChemCore Impext Ltd.<br>
           H-1024 Budapest., Ady Endre str. 19. a </p>
         <label class="text-uppercase">e-mail:<br>
           <span id="email2" class="text-lowercase">info@chemcore.hu</span> </label>
         <br>
-        <label class="text-uppercase">telefon:<br>
+        <label class="text-uppercase"><?php echo $lang['CONTACT_MOBILE']; ?><br>
           <span id="tel" class="text-lowercase">+36 1 920 1177</span> </label>
         </address>
       </div>
       <div class="col-sm-offset-1 col-sm-7">
-        <form class="form-horizontal">
+        <form class="form-horizontal" method="post">
           <div class="col-xs-12 col-md-6">
-            <input type="text" class="form-control" id="nev" placeholder="Név">
+            <input type="text" class="form-control" id="nev" name="nev" placeholder="<?php echo $lang['CONTACT_FORM_NAME']; ?>">
           </div>
           <div class="col-xs-12 col-md-6">
-            <input type="email" class="form-control" id="email" placeholder="E-mail">
+            <input type="email" class="form-control" id="email" name="email" placeholder="E-mail">
           </div>
           <div class="col-sm-12">
-            <textarea id="uzenet" class="form-control" rows="3" placeholder="Üzenet"></textarea>
+            <textarea id="uzenet" class="form-control" rows="3" name="uzenet" placeholder="<?php echo $lang['CONTACT_FORM_MESSAGE']; ?>"></textarea>
           </div>
           <div class="col-sm-12">
-            <button type="submit" class="btn btn-default text-uppercase">küldés</button>
+            <button type="submit" class="btn btn-default text-uppercase" name="contact-button"><?php echo $lang['CONTACT_FORM_BUTTON']; ?></button>
           </div>
         </form>
       </div>
     </div>
+    <?php 
+if(isset($_POST['contact-button'])){
+    $to = "lacigabi@windowslive.com"; // this is your Email address
+    $from = $_POST['email']; // this is the sender's Email address
+    $nev = $_POST['nev'];
+    $targy = "Kapcsoaltfelvétel";
+    $uzenet = $_POST['uzenet'];
+
+   
+    $headers = "Content-Type: text/html; charset=UTF-8\n";
+    $headers .= "From: $from\n";
+    $headers .= "Reply-To: $to";
+    mail($to,$targy,$uzenet,$headers);
+    echo "
+        <div class='alert alert-success'>
+                <a href='#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>
+                <strong>$lang[MESSAGE_SUCCESS]</strong> $lang[MESSAGE_REST]
+                </div>
+    ";
+    // You can also use header('Location: thank_you.php'); to redirect to another page.
+    }
+?>
   </div>
 </section>
 <footer>
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-md-3">
-        <div id="logo2" class="text-center col-sm-offset-4 col-sm-4"> <a href="index.html"><img src="img/logo.png" alt="logo"></a> </div>
+        <div id="logo2" class="text-center col-sm-offset-4 col-sm-4"> <a href="index.php"><img src="img/logo.png" alt="logo"></a> </div>
       </div>
       <div class="col-xs-12 col-sm-8 col-md-6">
         <ul class="nav navbar-nav">
-          <li><a href="#lily-anchor" class="text-uppercase">Lily </a></li>
-          <li><a href="#scudo" class="text-uppercase">Scudo</a></li>
-          <li><a href="#kapcsolat" class="text-uppercase">Kapcsolat</a></li>
+          <li><a href="#lily-anchor" class="text-uppercase"><?php echo $lang['MENU_1']; ?> </a></li>
+          <li><a href="#scudo" class="text-uppercase"><?php echo $lang['MENU_2']; ?></a></li>
+          <li><a href="#kapcsolat" class="text-uppercase"><?php echo $lang['MENU_3']; ?></a></li>
           <li><a href="aszf.html" class="text-uppercase">ászf</a></li>
         </ul>
       </div>
