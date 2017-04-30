@@ -1,3 +1,6 @@
+<?php
+  require_once 'langselect.php';
+?>
 <!DOCTYPE html>
 <html lang="hu">
 <head>
