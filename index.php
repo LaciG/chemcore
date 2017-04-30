@@ -24,11 +24,11 @@
   <div class="container-fluid">
     <div class="row">
       <div id="logo" class="text-center col-sm-offset-4 col-sm-4"> <a href="index.html"><img src="img/logo.png" alt="logo"></a> </div>
-      <div class="col-sm-offset-1 col-sm-1 text-right dropdown" id="lang"> <a id="dLabel" type="button" class="text-uppercase" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">hu <span class="caret"></span> </a>
+      <div class="col-sm-offset-1 col-sm-1 text-right dropdown" id="lang"> <a id="dLabel" type="button" class="text-uppercase" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?php echo $lang['MENU_HUEN']; ?><span class="caret"></span> </a>
         <ul class="dropdown-menu text-uppercase" aria-labelledby="dLabel">
-          <li><a href="">hu</a></li>
-          <li><a href="">en</a></li>
-          <li><a href="">de</a></li>
+            <li><a href="?lang=hu"><?php echo $lang['Hungary']; ?></a></li>
+            <li><a href="?lang=en"><?php echo $lang['English']; ?></a></li>
+            <li><a href="?lang=de"><?php echo $lang['Deutsch']; ?></a></li>
         </ul>
       </div>
     </div>
@@ -46,9 +46,9 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-              <li><a href="#lily-anchor" class="text-uppercase">Lily <span class="sr-only">(current)</span></a></li>
-              <li><a href="#scudo" class="text-uppercase">Scudo</a></li>
-              <li><a href="#contact" class="text-uppercase">Kapcsolat</a></li>
+              <li><a href="#lily-anchor" class="text-uppercase"><?php echo $lang['MENU_1']; ?> <span class="sr-only">(current)</span></a></li>
+              <li><a href="#scudo" class="text-uppercase"><?php echo $lang['MENU_2']; ?></a></li>
+              <li><a href="#contact" class="text-uppercase"><?php echo $lang['MENU_3']; ?></a></li>
             </ul>
           </div>
           <!-- /.navbar-collapse --> 
@@ -58,12 +58,9 @@
       <div class="row">
         <div class="col-xs-12 col-sm-offset-1 col-sm-5 xs-bg">
           <h1><b>CHEMCORE IMPEX KFT.</b></h1>
-          <p>Cégünk küldetése partnereink igényeit kiszolgálni,<br>
-            igazodva az egyre magasabb elvárásokhoz,<br>
-            folyamatosan bővülő termékválasztékkal<br>
-            és versenyképes árakkal.<br>
+          <p><?php echo $lang['CHEMCORE_TEXT']; ?><br>
           </p>
-          <p><a class="btn btn-primary btn-lg" href="#haztartasi" role="button">TERMÉKEINK</a></p>
+          <p><a class="btn btn-primary btn-lg" href="#haztartasi" role="button"><?php echo $lang['CHEMCORE_BUTTON']; ?></a></p>
         </div>
       </div>
     </div>
@@ -74,12 +71,9 @@
     <div class="row">
       <div class="col-sm-6"><img src="img/rolunk.png" class="img-responsive" alt=""></div>
       <div class="col-sm-6">
-        <h2 class="text-capitalize">rólunk</h2>
-        <p>Cégünk egy dinamikusan fejlődő, hazai tulajdonban lévő vállalkozás.
-          Háztartási-Vegyipari termékek gyártásával és forgalmazásával foglalkozunk. Számos multinacionális vállalat sajátmárkás termékeit forgalmazzuk a saját márkáink mellett.<br>
-          <br>
-          Jelen vagyunk Szlovákiában, Csehországban, Lengyelországban, Magyarországon, Dániában, Németországban és Svédországban.<br>
-          <b>Cégünk egyéb területen 4 országos Tesco PL beszállító.</b> </p>
+        <h2 class="text-capitalize"><?php echo $lang['ABOUT_US']; ?></h2>
+        <p><?php echo $lang['ABOUT_US_TEXT']; ?>
+          <b><?php echo $lang['ABOUT_US_TESCO']; ?> </b> </p>
       </div>
     </div>
   </div>
