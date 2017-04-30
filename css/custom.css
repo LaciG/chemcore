@@ -1,0 +1,765 @@
+/* font */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+/* font-family: 'Montserrat', sans-serif; */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+/* font-family: 'Open Sans', sans-serif; */
+@font-face {
+	font-family: segoeui;
+	src: url(../fonts/segoeui.ttf);
+}
+@font-face {
+	font-family: segoeuib;
+	src: url(../fonts/segoeuib.ttf);
+}
+@font-face {
+	font-family: segoeuii;
+	src: url(../fonts/segoeuii.ttf);
+}
+@font-face {
+	font-family: segoeuil;
+	src: url(../fonts/segoeuil.ttf);
+}
+@font-face {
+	font-family: segoeuisl;
+	src: url(../fonts/segoeuisl.ttf);
+}
+@font-face {
+	font-family: segoeuiz;
+	src: url(../fonts/segoeuiz.ttf);
+}
+@font-face {
+	font-family: seguibl;
+	src: url(../fonts/seguibl.ttf);
+}
+@font-face {
+	font-family: seguibli;
+	src: url(../fonts/seguibli.ttf);
+}
+@font-face {
+	font-family: seguili;
+	src: url(../fonts/seguili.ttf);
+}
+@font-face {
+	font-family: seguisb;
+	src: url(../fonts/seguisb.ttf);
+}
+@font-face {
+	font-family: seguisbi;
+	src: url(../fonts/seguisbi.ttf);
+}
+@font-face {
+	font-family: seguisli;
+	src: url(../fonts/seguisli.ttf);
+}
+/* ------ */
+/* common */
+body {
+	margin: 0px;
+	padding: 11px 0px 0px 0px;
+	font-family: segoeui;/*background: url("../img/chemcore_lily.jpg") no-repeat center top;
+	background-size: 1600px 2036px;
+	opacity: 0.4;*/
+}
+.padding-none {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+/* ------ */
+/* logo lang */
+#lang {
+	margin-top: 40px;
+}
+#lang ul {
+	list-style-type: none !important;
+}
+#lang .dropdown-menu {
+	right: 0;
+	z-index: 2000;
+}
+#lang a {
+	font-size: 14px;
+	color: #c4c4c4;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+.caret {
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-top: 8px dashed;
+	color: black;
+}
+/* ------ */
+/* header */
+.navbar {
+	background: transparent;
+	border: none;
+	font-size: 18px;
+	color: #4a4a49;
+}
+.navbar .navbar-nav {
+	display: inline-block;
+	float: none;
+}
+.navbar .navbar-collapse {
+	text-align: center;
+	margin-top: 25px;
+}
+.nav > li > a {
+	display: block;
+	padding: 10px 25px;
+	position: relative;
+}
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+	color: #b6842c;
+}
+.jumbotron .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+	background-color: #b6842c;
+	color: #fff;
+}
+header button span {
+	color: black;
+}
+.jumbotron {
+	background-color: #fff;
+	margin-top: -38px;
+}
+.jumbotron h1 {
+	font-family: segoeuib;
+	font-size: 43px;
+	color: #b6842c;
+}
+.jumbotron p {
+	font-size: 20px;
+	color: #3c3c3b;
+	line-height: 25px;
+	margin-top: 25px;
+	margin-bottom: 38px;
+}
+.jumbotron .btn-primary {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	background: #8c181b;
+	border-radius: 2px;
+	width: 184px;
+	height: 50px;
+	z-index: 107;
+	border: none;
+	padding-top: 13px;
+	padding-bottom: 17px;
+	letter-spacing: 3px;
+}
+.jumbotron .container {
+	background: url("../img/slider1.jpg") no-repeat center top;
+	/*width: 100%;*/
+	height: 700px;
+	background-size: cover;
+	width: 1340px;
+}
+.jumbotron .row + .row {
+	margin-left: -50px;
+	margin-top: 55px;
+}
+.jumbotron {
+	padding-bottom: 30px;
+}
+/* ------ */
+/* rolunk */
+#rolunk {
+	margin-top: 0px;
+}
+#rolunk h2 {
+	font-size: 40px;
+	color: #3c3c3b;
+}
+#rolunk p {
+	font-size: 17px;
+	color: #3c3c3b;
+}
+/* ------ */
+/* háztartási */
+#haztartasi {
+	margin-top: 18px;
+}
+#haztartasi hr {
+	height: 1px;
+	background: #b6842c;
+}
+#haztartasi h2 {
+	font-size: 40px;
+	color: #3c3c3b;
+	margin-top: 35px;
+	margin-bottom: 50px;
+}
+#haztartasi h3 {
+	font-size: 25px;
+	color: #8c181b;
+	font-family: seguisb;
+	margin-top: 28px;
+}
+.color-middle {
+	color: #bf934e !important;
+}
+#haztartasi p {
+	font-size: 17px;
+	color: #4e4e4d;
+	margin-top: 20px;
+}
+#haztartasi col-sm-4 {
+	/*margin: 30px;
+    width: 380px !important;*/
+	background: #fdfcfd;
+}
+#haztartasi img {
+	/*width: 79px;
+	height: 79px;*/
+	display: inline-block;
+}
+.box-shadow {
+	box-shadow: 0px 0px 31px 0px rgba( 62, 16, 55, 0.15 );
+	padding: 30px 15px 70px;
+	margin: 0 2% !important;
+	width: 29.333% !important;
+}
+.border50 {
+	border: 1px solid #8c181b;
+	border-radius: 50%;
+	box-sizing: border-box;
+	display: inline-block;
+	height: 79px;
+	padding: 10px;
+	width: 79px;
+}
+.border50middle {
+	border: 1px solid #b6842c;
+	border-radius: 50%;
+	box-sizing: border-box;
+	display: inline-block;
+	height: 79px;
+	padding: 10px;
+	width: 79px;
+}
+/* ------ */
+/* lily */
+#lily {
+	margin-top: 80px;
+}
+#lily h2 {
+	font-family: segoeuib;
+	font-size: 30px;
+	color: #2e2d2c;
+	letter-spacing: 3px;
+	margin-top: 33px;
+}
+#lily p {
+	font-family: segoeuil;
+	font-size: 16px;
+	color: #2e2d2c;
+}
+#lily button {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	color: #fff;
+	border-radius: 2px;
+	background-color: rgb( 182, 132, 44 );
+	padding: 15px 45px;
+	border: none;
+	letter-spacing: 3px;
+	margin-top: 25px;
+}
+#lily img {
+	width: 100%;
+}
+/* ------ */
+/* scudo */
+#scudo {
+	margin-top: 50px;
+}
+#scudo h2 {
+	font-family: segoeuib;
+	font-size: 30px;
+	color: #2e2d2c;
+	letter-spacing: 3px;
+}
+#scudo p {
+	font-size: 16px;
+	color: #2e2d2c;
+	font-family: segoeuil;
+}
+#scudo button {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	color: #fff;
+	border-radius: 2px;
+	background-color: #8c181b;
+	padding: 15px 45px;
+	border: none;
+	letter-spacing: 3px;
+	margin-top: 25px;
+}
+#scudo img {
+	width: 100%;
+}
+/* ------ */
+/* contact */
+#contact {
+	margin-top: 97px;
+	background: #fafafa;
+	padding: 30px;
+}
+#contact form button {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	color: #fff;
+	border-radius: 2px;
+	background-color: rgb( 182, 132, 44 );
+	padding: 15px 45px;
+	border: none;
+	letter-spacing: 3px;
+	margin-top: 25px;
+}
+#contact h3 {
+	font-size: 35px;
+	color: #2e2d2c;
+	margin-bottom: 22px;
+}
+#contact p {
+	font-size: 18px;
+	color: #2e2d2c;
+}
+address label {
+	font-size: 15px;
+	color: #9d9d9c;
+	margin-top: 30px;
+}
+address label span {
+	font-size: 18px;
+	color: #2e2d2c;
+}
+.form-control {
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid rgb( 198, 198, 198 );
+	border-radius: 4px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+	color: #9fa3a7;
+	display: block;
+	font-size: 18px;
+	/*height: 34px;*/
+	line-height: 1.857;
+	padding: 6px 12px;
+	transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+	width: 100%;
+	height: 55px;
+}
+#nev {
+	background: #fff url("../img/icon-man.png") no-repeat left center;
+	background-position: 21px;
+	padding-left: 55px;
+}
+#email {
+	background: #fff url("../img/icon-mail.png") no-repeat left center;
+	background-position: 21px;
+	padding-left: 55px;
+}
+#uzenet {
+	background: #fff;
+	padding-left: 21px;
+	margin-top: 20px;
+	height: 220px;
+	resize: none;
+}
+/* ------ */
+/* footer */
+footer {
+	padding: 40px 0;
+}
+footer a {
+	font-size: 16px;
+	color: #4a4a49;
+	letter-spacing: 3px;
+}
+footer a:focus, a:hover {
+	color: rgb( 182, 132, 44 );
+}
+footer p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	color: #4e4e4d;
+}
+footer .navbar-nav li a {
+	line-height: 95px;
+}
+footer .nav li a:focus, footer .nav li a:hover {
+	background: transparent;
+}
+footer .navbar-right > li > a {
+	display: block;
+	padding: 10px 15px;
+	position: relative;
+}
+/* ------ */
+/* LILY.HTML */
+/* nav */
+#lilyhtml .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+	border-bottom: 3px solid #b6842c;
+	background: transparent;
+	color: #4a4a49;
+}
+/* ------ */
+/* mosogelek */
+#lilyhtml #lily-mosogelek h2, #lilyhtml #lily-mososzerek h2 {
+	font-size: 35px;
+	color: #3c3c3b;
+	background: #f6f6f6;
+	padding: 30px;
+}
+#lilyhtml #lily-mosogelek h3, #lilyhtml #lily-mososzerek h3 {
+	font-family: segoeuib;
+	font-size: 23px;
+	color: #3c3c3b;
+}
+#lilyhtml h2 {
+	margin-bottom: 0px;
+}
+#lilyhtml #lily-mosogelek h3 span, #lilyhtml #lily-mososzerek h3 span {
+	font-family: seguisb;
+	font-size: 15px;
+	color: #878787;
+}
+#lilyhtml .termekek button {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	color: #fff;
+	border-radius: 2px;
+	background-color: rgb( 182, 132, 44 );
+	padding: 15px 30px;
+	border: none;
+	letter-spacing: 3px;
+	/*float: right;*/
+	position: absolute;
+	bottom: 30px;
+	right: 30px;
+}
+#lilyhtml .termekek ul {
+	margin: 0px;
+	padding: 0px 0px 30px;
+	list-style-image: url("../img/red-dot.png");
+}
+#lilyhtml li {
+	font-size: 17px;
+	color: #3c3c3b;
+}
+#lilyhtml .termekek {
+	border: 2px solid #dcdcdc;
+	padding-bottom: 30px;
+	height: 360px;
+}
+#lilyhtml #lily-mosogelek .col-md-6, #lilyhtml #lily-mososzerek .col-md-6 {
+	width: 49%;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	margin-bottom: 15px;
+}
+#lilyhtml .termekek img {
+	margin: 0px auto 0px;
+}
+.bg1 {
+	background: url("../img/red-triangle.png") no-repeat top right;
+}
+.bg2 {
+	background: url("../img/gold-triangle.png") no-repeat top right;
+}
+.bg3 {
+	background: url("../img/light-gold-triangle.png") no-repeat top right;
+}
+.bg4 {
+	background: url("../img/gray-triangle.png") no-repeat top right;
+}
+/* ------ */
+/* ------ */
+
+/* SCUDO.HTML */
+/* nav */
+#scudohtml .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+	border-bottom: 3px solid #b6842c;
+	background: transparent;
+	color: #4a4a49;
+}
+/* ------ */
+/* mosogelek */
+#scudohtml #scudo-mosogelek h2, #scudohtml #scudo-konyhai-mosogatoszerek h2, #scudohtml #scudo-mosogel-kapszulak h2, #scudohtml #scudo-tisztitoszerek h2 {
+	font-size: 35px;
+	color: #3c3c3b;
+	background: #f6f6f6;
+	padding: 30px;
+}
+#scudohtml #scudo-mosogelek h3, #scudohtml #scudo-konyhai-mosogatoszerek h3, #scudohtml #scudo-mosogel-kapszulak h3, #scudohtml #scudo-tisztitoszerek h3 {
+	font-family: segoeuib;
+	font-size: 23px;
+	color: #3c3c3b;
+}
+#scudohtml h2 {
+	margin-bottom: 0px;
+}
+#scudohtml #scudo-mosogelek h3 span, #scudohtml #scudo-konyhai-mosogatoszerek h3 span, #scudohtml #scudo-mosogel-kapszulak h3 span, #scudohtml #scudo-tisztitoszerek h3 span {
+	font-family: seguisb;
+	font-size: 15px;
+	color: #878787;
+}
+#scudohtml .termekek button {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	color: #fff;
+	border-radius: 2px;
+	background-color: rgb( 182, 132, 44 );
+	padding: 15px 30px;
+	border: none;
+	letter-spacing: 3px;
+	/*float: right;*/
+	position: absolute;
+	bottom: 30px;
+	right: 30px;
+}
+#scudohtml .termekek ul {
+	margin: 0px;
+	padding: 0px 0px 30px;
+	list-style-image: url("../img/red-dot.png");
+}
+#scudohtml li {
+	font-size: 17px;
+	color: #3c3c3b;
+}
+#scudohtml .termekek {
+	border: 2px solid #dcdcdc;
+	padding-bottom: 30px;
+	height: 360px;
+}
+#scudohtml #scudo-mosogelek .col-md-6, #scudohtml #scudo-konyhai-mosogatoszerek .col-md-6, #scudohtml #scudo-mosogel-kapszulak .col-md-6, #scudohtml #scudo-tisztitoszerek .col-md-6 {
+	width: 49%;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	margin-bottom: 15px;
+}
+#scudohtml .termekek img {
+	margin: 0px auto 0px;
+}
+.bg1 {
+	background: url("../img/red-triangle.png") no-repeat top right;
+}
+.bg2 {
+	background: url("../img/gold-triangle.png") no-repeat top right;
+}
+.bg3 {
+	background: url("../img/light-gold-triangle.png") no-repeat top right;
+}
+.bg4 {
+	background: url("../img/gray-triangle.png") no-repeat top right;
+}
+/* ------ */
+/* ------ */
+
+/* TERMEKNEZET.HTML */
+/* nav */
+#termeknezethtml .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+	border-bottom: 3px solid #b6842c;
+	background: transparent;
+	color: #4a4a49;
+}
+/* ------ */
+/* mosogelek */
+#termeknezethtml #termeknezet h2 {
+	font-size: 35px;
+	color: #3c3c3b;
+	background: #f6f6f6;
+	padding: 30px;
+}
+#termeknezethtml #termeknezet h3 {
+	font-family: segoeuib;
+	font-size: 23px;
+	color: #3c3c3b;
+}
+#termeknezethtml h2 {
+	margin-bottom: 0px;
+}
+#termeknezethtml #termeknezet h3 span {
+	font-family: seguisb;
+	font-size: 15px;
+	color: #878787;
+}
+#termeknezethtml .termekek button {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	color: #fff;
+	border-radius: 2px;
+	background-color: rgb( 182, 132, 44 );
+	padding: 15px 30px;
+	border: none;
+	letter-spacing: 3px;
+	/*float: right;*/
+	position: absolute;
+	bottom: 30px;
+	right: 30px;
+}
+#termeknezethtml .termekek ul {
+	margin: 0px;
+	padding: 0px 0px 30px;
+	list-style-image: url("../img/red-dot.png");
+}
+#termeknezethtml li {
+	font-size: 17px;
+	color: #3c3c3b;
+}
+#termeknezethtml .termekek {
+	border: none;
+	padding-bottom: 30px;
+	height: 470px;
+}
+#termeknezethtml .termekek img {
+	margin: 0px auto 0px;
+}
+#termeknezethtml h4 {
+	font-family: segoeuib;
+	font-size: 19px;
+	color: #3c3c3b;
+}
+#termeknezethtml p {
+	font-size: 17px;
+	color: #3c3c3b;
+	margin-bottom: 25px;
+}
+#termeknezethtml p span {
+	font-size: 14px;
+	color: #3c3c3b;
+}
+#pdf {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color: #8c181b;
+}
+
+/* ------ */
+/* ------ */
+
+/*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+@media only screen and (max-width : 1400px) {
+.jumbotron .container {
+	background: url("../img/slider1.jpg") no-repeat center top;
+	width: 100%;
+	height: 700px;
+	background-size: cover;
+}
+#lilyhtml .termekek, #scudohtml .termekek {
+	border: 2px solid #dcdcdc;
+	padding-bottom: 30px;
+}
+}
+
+@media only screen and (max-width : 1200px) {
+#lilyhtml li, #scudohtml li {
+	font-size: 15px;
+	color: #3c3c3b;
+}
+#termeknezethtml .termekek {
+	padding-bottom: 30px;
+	height: 515px;
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+#scudo button {
+	margin-bottom: 25px;
+}
+#email {
+	margin-top: 20px;
+}
+footer .navbar-nav li a {
+	line-height: 35px;
+}
+footer ul {
+	display: inline-block;
+	text-align: center;
+}
+footer .navbar-nav > li {
+}
+#lilyhtml .termekek img, #scudohtml .termekek img {
+	margin: 0px auto 0px;
+}
+#lilyhtml .termekek, #scudohtml .termekek {
+	border: 2px solid #dcdcdc;
+	padding-bottom: 30px;
+	height: 560px;
+}
+#lilyhtml li, #scudohtml li {
+	font-size: 14px;
+	color: #3c3c3b;
+}
+#termeknezethtml .termekek {
+	height: 695px;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+.jumbotron .row + .row {
+	margin-left: 0px;
+	margin-top: 55px;
+}
+.xs-bg {
+	background: rgba(255, 255, 255, 0.8);
+}
+.box-shadow {
+	box-shadow: 0px 0px 31px 0px rgba( 62, 16, 55, 0.15 );
+	padding: 30px 15px 70px;
+	margin: 2% 0% !important;
+	width: 100% !important;
+}
+footer {
+	text-align: center;
+}
+#lang {
+	top: -100px;
+}
+#lang li a {
+	text-align: center;
+}
+#lilyhtml #lily-mosogelek .col-md-6, #lilyhtml #lily-mososzerek .col-md-6, #scudohtml #scudo-mosogelek .col-md-6, #scudohtml #scudo-konyhai-mosogatoszerek .col-md-6, #scudohtml #scudo-mosogel-kapszulak .col-md-6, #scudohtml #scudo-tisztitoszerek .col-md-6 {
+	width: 100%;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	margin-bottom: 15px;
+}
+.navbar-toggle {
+	color: #fff;
+	background-color: transparent;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+#termeknezethtml .termekek, #lilyhtml .termekek {
+	/*height: 813px;*/
+	height: auto !important;
+}
+#lilyhtml .termekek button {
+    float: right;
+ 	position: static;
+}
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+#termeknezethtml .termekek button {
+	float: right;
+	position: static;
+}
+#lilyhtml .termekek button {
+    float: right;
+    position: static;
+}
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+}
