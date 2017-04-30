@@ -27,11 +27,11 @@
   <div class="container-fluid">
     <div class="row">
       <div id="logo" class="text-center col-sm-offset-4 col-sm-4"> <a href="index.html"><img src="img/logo.png" alt="logo"></a> </div>
-      <div class="col-sm-offset-1 col-sm-1 text-right dropdown" id="lang"> <a id="dLabel" type="button" class="text-uppercase" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">hu <span class="caret"></span> </a>
+      <div class="col-sm-offset-1 col-sm-1 text-right dropdown" id="lang"> <a id="dLabel" type="button" class="text-uppercase" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?php echo $lang['MENU_HUEN']; ?><span class="caret"></span> </a>
         <ul class="dropdown-menu text-uppercase" aria-labelledby="dLabel">
-          <li><a href="">hu</a></li>
-          <li><a href="">en</a></li>
-          <li><a href="">de</a></li>
+          <li><a href="?lang=hu"><?php echo $lang['Hungary']; ?></a></li>
+          <li><a href="?lang=en"><?php echo $lang['English']; ?></a></li>
+          <li><a href="?lang=de"><?php echo $lang['Deutsch']; ?></a></li>
         </ul>
       </div>
     </div>
@@ -48,9 +48,9 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li><a href="lily.html" class="text-uppercase">Lily <span class="sr-only">(current)</span></a></li>
-            <li><a href="scudo.html" class="text-uppercase">Scudo</a></li>
-            <li><a href="index.html#contact" class="text-uppercase">Kapcsolat</a></li>
+            <li><a href="lily.php" class="text-uppercase"><?php echo $lang['MENU_1']; ?> <span class="sr-only">(current)</span></a></li>
+            <li><a href="scudo.php" class="text-uppercase"><?php echo $lang['MENU_2']; ?></a></li>
+            <li><a href="index.php#contact" class="text-uppercase"><?php echo $lang['MENU_3']; ?></a></li>
           </ul>
         </div>
         <!-- /.navbar-collapse --> 

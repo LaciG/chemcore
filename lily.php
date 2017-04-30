@@ -27,11 +27,11 @@
   <div class="container-fluid">
     <div class="row">
       <div id="logo" class="text-center col-sm-offset-4 col-sm-4"> <a href="index.html"><img src="img/logo.png" alt="logo"></a> </div>
-      <div class="col-sm-offset-1 col-sm-1 text-right dropdown" id="lang"> <a id="dLabel" type="button" class="text-uppercase" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">hu <span class="caret"></span> </a>
+      <div class="col-sm-offset-1 col-sm-1 text-right dropdown" id="lang"> <a id="dLabel" type="button" class="text-uppercase" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?php echo $lang['MENU_HUEN']; ?><span class="caret"></span> </a>
         <ul class="dropdown-menu text-uppercase" aria-labelledby="dLabel">
-          <li><a href="">hu</a></li>
-          <li><a href="">en</a></li>
-          <li><a href="">de</a></li>
+          <li><a href="?lang=hu"><?php echo $lang['Hungary']; ?></a></li>
+          <li><a href="?lang=en"><?php echo $lang['English']; ?></a></li>
+          <li><a href="?lang=de"><?php echo $lang['Deutsch']; ?></a></li>
         </ul>
       </div>
     </div>
@@ -48,9 +48,9 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="lily.html" class="text-uppercase">Lily <span class="sr-only">(current)</span></a></li>
-            <li><a href="scudo.html" class="text-uppercase">Scudo</a></li>
-            <li><a href="index.html#contact" class="text-uppercase">Kapcsolat</a></li>
+            <li class="active"><a href="lily.php" class="text-uppercase"><?php echo $lang['MENU_1']; ?> <span class="sr-only">(current)</span></a></li>
+            <li><a href="scudo.php" class="text-uppercase"><?php echo $lang['MENU_2']; ?></a></li>
+            <li><a href="index.php#contact" class="text-uppercase"><?php echo $lang['MENU_3']; ?></a></li>
           </ul>
         </div>
         <!-- /.navbar-collapse --> 
@@ -63,7 +63,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-xs-12 padding-none">
-        <h2 class="text-capitalize text-center">lily mosógélek</h2>
+        <h2 class="text-capitalize text-center"><?php echo $lang['LILY_TITLE_1']; ?></h2>
       </div>
     </div>
     <div class="container">
@@ -71,56 +71,50 @@
         <div class="termekek col-xs-12 col-md-6 bg1">
           <div class="col-xs-12 col-md-4"> <img src="img/mosogel-kapszula-color.png" alt="" class="img-responsive"> </div>
           <div class="col-xs-12 col-md-8">
-            <h3 class="text-capitalize">Mosógél kapszula color<br>
+            <h3 class="text-capitalize"><?php echo $lang['LILY_ITEM_NAME_1']; ?><br>
               <span>15 db</span></h3>
             <ul>
-              <li>Kétkamrás mosógél kapszula, mosógél koncentrátum és folteltávolító adalékanyaggal-és színvédelemmel 2/1-ben, praktikus előre kiadagolt formában.</li>
+              <?php echo $lang['LILY_ITEM_NAME_1_DESC']; ?>
             </ul>
           </div>
           <a href="termeknezet.html">
-          <button class="btn btn-primary text-uppercase">részletek</button>
+          <button class="btn btn-primary text-uppercase"><?php echo $lang['LILY_BUTTON']; ?></button>
           </a> </div>
         <div class="termekek col-xs-12 col-md-6 bg2">
           <div class="col-xs-12 col-md-4"> <img src="img/mosogel-kapszula-white.png" alt="" class="img-responsive"> </div>
           <div class="col-xs-12 col-md-8">
-            <h3 class="text-capitalize">Mosógél kapszula white<br>
+            <h3 class="text-capitalize"><?php echo $lang['LILY_ITEM_NAME_2']; ?><br>
               <span>15 db</span></h3>
             <ul>
-              <li>Kétkamrás mosógél kapszula, mosógél koncentrátum és folteltávolító adalékanyaggal-és optikai fehérítővel a kristálytiszta fehér ruhákért – 2/1-ben, praktikus 					előre kiadagolt formában. </li>
+              <?php echo $lang['LILY_ITEM_NAME_2_DESC']; ?>
             </ul>
           </div>
           <a href="termeknezet.html">
-          <button class="btn btn-primary text-uppercase">részletek</button>
+          <button class="btn btn-primary text-uppercase"><?php echo $lang['LILY_BUTTON']; ?></button>
           </a> </div>
         <div class="termekek col-xs-12 col-md-6 bg3">
           <div class="col-xs-12 col-md-4"> <img src="img/mososzer-color.png" alt="" class="img-responsive"> </div>
           <div class="col-xs-12 col-md-8">
-            <h3 class="text-capitalize">Mosószer color<br>
+            <h3 class="text-capitalize"><?php echo $lang['LILY_ITEM_NAME_3']; ?><br>
               <span>1,5l/3l/4,5l</span></h3>
             <ul>
-              <li>Minőségi, koncentrált mosószer többféle tenzid és az enzim erejével</li>
-              <li>Egyaránt használható gépi illetve kézi mosáshoz is.</li>
-              <li>Minden ruhatípushoz alkalmazható, védi és megőrzi ruhái eredeti színét.</li>
-              <li>30/45/90 mosás</li>
+              <?php echo $lang['LILY_ITEM_NAME_3_DESC']; ?>
             </ul>
           </div>
           <a href="termeknezet.html">
-          <button class="btn btn-primary text-uppercase">részletek</button>
+          <button class="btn btn-primary text-uppercase"><?php echo $lang['LILY_BUTTON']; ?></button>
           </a> </div>
         <div class="termekek col-xs-12 col-md-6 bg4">
           <div class="col-xs-12 col-md-4"> <img src="img/mososzer-white.png" alt="" class="img-responsive"> </div>
           <div class="col-xs-12 col-md-8">
-            <h3 class="text-capitalize">Mosószer white<br>
+            <h3 class="text-capitalize"><?php echo $lang['LILY_ITEM_NAME_4']; ?><br>
               <span>1,5l/3l/4,5l</span></h3>
             <ul>
-              <li>Minőségi, koncentrált mosószer többféle tenzid és az enzim erejével</li>
-              <li>Egyaránt használható gépi illetve kézi mosáshoz is.</li>
-              <li>Fehér és kevésbé színtartó ruhák mosásához ajánlott, fehérítő adalékot tartalmazó koncentrált formula.</li>
-              <li>30/45/90 mosás</li>
+              <?php echo $lang['LILY_ITEM_NAME_4_DESC']; ?>
             </ul>
           </div>
           <a href="termeknezet.html">
-          <button class="btn btn-primary text-uppercase">részletek</button>
+          <button class="btn btn-primary text-uppercase"><?php echo $lang['LILY_BUTTON']; ?></button>
           </a> </div>
       </div>
     </div>
@@ -130,7 +124,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-xs-12 padding-none">
-        <h2 class="text-capitalize text-center">lily mosószerek</h2>
+        <h2 class="text-capitalize text-center"><?php echo $lang['LILY_TITLE_2']; ?></h2>
       </div>
     </div>
     <div class="container">
@@ -138,53 +132,50 @@
         <div class="termekek col-xs-12 col-md-6 bg1">
           <div class="col-xs-12 col-md-4"> <img src="img/mosopor-color.png" alt="" class="img-responsive"> </div>
           <div class="col-xs-12 col-md-8">
-            <h3 class="text-capitalize">Mosópor color<br>
+            <h3 class="text-capitalize"><?php echo $lang['LILY_ITEM_NAME_5']; ?><br>
               <span>3kg/6kg</span></h3>
             <ul>
-              <li>30/60 mosás</li>
-              <li>Minőségi mosópor színes ruhákhoz ajánlva</li>
+              <?php echo $lang['LILY_ITEM_NAME_5_DESC']; ?>
             </ul>
           </div>
           <a href="termeknezet.html">
-          <button class="btn btn-primary text-uppercase">részletek</button>
+          <button class="btn btn-primary text-uppercase"><?php echo $lang['LILY_BUTTON']; ?></button>
           </a> </div>
         <div class="termekek col-xs-12 col-md-6 bg2">
           <div class="col-xs-12 col-md-4"> <img src="img/mosopor-white.png" alt="" class="img-responsive"> </div>
           <div class="col-xs-12 col-md-8">
-            <h3 class="text-capitalize">Mosópor white<br>
+            <h3 class="text-capitalize"><?php echo $lang['LILY_ITEM_NAME_6']; ?><br>
               <span>3kg/6kg</span></h3>
             <ul>
-              <li>K30/60 mosás</li>
-              <li>Minőségi mosóspor, kifejezetten fehér és nem színtartó ruhák, pelenkák mosásához, aktív folteltávolító hatással.</li>
+              <?php echo $lang['LILY_ITEM_NAME_6_DESC']; ?>
             </ul>
           </div>
           <a href="termeknezet.html">
-          <button class="btn btn-primary text-uppercase">részletek</button>
+          <button class="btn btn-primary text-uppercase"><?php echo $lang['LILY_BUTTON']; ?></button>
           </a> </div>
         <div class="termekek col-xs-12 col-md-6 bg3">
           <div class="col-xs-12 col-md-4"> <img src="img/mosopor-universal.png" alt="" class="img-responsive"> </div>
           <div class="col-xs-12 col-md-8">
-            <h3 class="text-capitalize">Mosópor universal<br>
+            <h3 class="text-capitalize"><?php echo $lang['LILY_ITEM_NAME_7']; ?><br>
               <span>9kg</span></h3>
             <ul>
-              <li>90 mosás</li>
-              <li>Minőségi mosóspor színes és fehér ruhákhoz egyaránt ajánlva</li>
+              <?php echo $lang['LILY_ITEM_NAME_7_DESC']; ?>
             </ul>
           </div>
           <a href="termeknezet.html">
-          <button class="btn btn-primary text-uppercase">részletek</button>
+          <button class="btn btn-primary text-uppercase"><?php echo $lang['LILY_BUTTON']; ?></button>
           </a> </div>
         <div class="termekek col-xs-12 col-md-6 bg4">
           <div class="col-xs-12 col-md-4"> <img src="img/textiloblito.png" alt="" class="img-responsive"> </div>
           <div class="col-xs-12 col-md-8">
-            <h3 class="text-capitalize">textilöblítő<br>
-              <span>1 l-es kiszerelésben | 3 féle illattal: friss üde óceán illattal (kék) | selymes édes illattal (rózsa) kellemes parfüm illattal (sárga)</span></h3>
+            <h3 class="text-capitalize"><?php echo $lang['LILY_ITEM_NAME_8']; ?><br>
+              <?php echo $lang['LILY_ITEM_NAME_8_SPECS']; ?></h3>
             <ul>
-              <li>Szálpuhító hatású, ezáltal óvja a textil szálakat, kellemes illatot biztosít ruhái számára.</li>
+              <?php echo $lang['LILY_ITEM_NAME_8_DESC']; ?>
             </ul>
           </div>
           <a href="termeknezet.html">
-          <button class="btn btn-primary text-uppercase">részletek</button>
+          <button class="btn btn-primary text-uppercase"><?php echo $lang['LILY_BUTTON']; ?></button>
           </a> </div>
       </div>
     </div>
@@ -194,13 +185,13 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-md-3">
-        <div id="logo2" class="text-center col-sm-offset-4 col-sm-4"> <a href="index.html"><img src="img/logo.png" alt="logo"></a> </div>
+        <div id="logo2" class="text-center col-sm-offset-4 col-sm-4"> <a href="index.php"><img src="img/logo.png" alt="logo"></a> </div>
       </div>
       <div class="col-xs-12 col-sm-8 col-md-6">
         <ul class="nav navbar-nav">
-          <li><a href="lily.html" class="text-uppercase">Lily </a></li>
-          <li><a href="scudo.html" class="text-uppercase">Scudo</a></li>
-          <li><a href="index.html#kapcsolat" class="text-uppercase">Kapcsolat</a></li>
+          <li><a href="lily.php" class="text-uppercase">Lily </a></li>
+          <li><a href="scudo.php" class="text-uppercase">Scudo</a></li>
+          <li><a href="index.php#kapcsolat" class="text-uppercase">Kapcsolat</a></li>
           <li><a href="aszf.html" class="text-uppercase">ászf</a></li>
         </ul>
       </div>
