@@ -27,11 +27,11 @@
   <div class="container-fluid">
     <div class="row">
       <div id="logo" class="text-center col-sm-offset-4 col-sm-4"> <a href="index.html"><img src="img/logo.png" alt="logo"></a> </div>
-      <div class="col-sm-offset-1 col-sm-1 text-right dropdown" id="lang"> <a id="dLabel" type="button" class="text-uppercase" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">hu <span class="caret"></span> </a>
+      <div class="col-sm-offset-1 col-sm-1 text-right dropdown" id="lang"> <a id="dLabel" type="button" class="text-uppercase" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?php echo $lang['MENU_HUEN']; ?><span class="caret"></span> </a>
         <ul class="dropdown-menu text-uppercase" aria-labelledby="dLabel">
-          <li><a href="">hu</a></li>
-          <li><a href="">en</a></li>
-          <li><a href="">de</a></li>
+          <li><a href="?lang=hu"><?php echo $lang['Hungary']; ?></a></li>
+        	<li><a href="?lang=en"><?php echo $lang['English']; ?></a></li>
+          <li><a href="?lang=de"><?php echo $lang['Deutsch']; ?></a></li>
         </ul>
       </div>
     </div>
@@ -48,9 +48,9 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li><a href="lily.html" class="text-uppercase">Lily <span class="sr-only">(current)</span></a></li>
-            <li class="active"><a href="scudo.html" class="text-uppercase">Scudo</a></li>
-            <li><a href="index.html#contact" class="text-uppercase">Kapcsolat</a></li>
+            <li><a href="lily.php" class="text-uppercase"><?php echo $lang['MENU_1']; ?> <span class="sr-only">(current)</span></a></li>
+            <li class="active"><a href="scudo.php" class="text-uppercase"><?php echo $lang['MENU_2']; ?></a></li>
+            <li><a href="index.php#contact" class="text-uppercase"><?php echo $lang['MENU_3']; ?></a></li>
           </ul>
         </div>
         <!-- /.navbar-collapse --> 
@@ -63,7 +63,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-xs-12 padding-none">
-        <h2 class="text-capitalize text-center">scudo mosógélek</h2>
+        <h2 class="text-capitalize text-center"><?php echo $lang['SCUDO_TITLE_1']; ?></h2>
       </div>
     </div>
   </div>
@@ -72,31 +72,26 @@
       <div class="termekek col-xs-12 col-md-6 bg1">
         <div class="col-xs-12 col-md-4"> <img src="img/scudo-mosogel-color.png" alt="" class="img-responsive"> </div>
         <div class="col-xs-12 col-md-8">
-          <h3 class="text-capitalize">Mosógél color<br>
+          <h3 class="text-capitalize"><?php echo $lang['SCUDO_ITEM_NAME_1']; ?><br>
             <span>1,5l / 3l /4,5l</span></h3>
           <ul>
-            <li>Használható gépi illetve kézi mosáshoz is egyaránt.</li>
-            <li>Minden ruhatípushoz alkalmazható, védi és megőrzi ruhái eredeti színét.</li>
-            <li>15/30/45 mosáshoz</li>
+            <?php echo $lang['SCUDO_ITEM_NAME_1_DESC']; ?>
           </ul>
         </div>
         <a href="termeknezet.html">
-        <button class="btn btn-primary text-uppercase">részletek</button>
+        <button class="btn btn-primary text-uppercase"><?php echo $lang['SCUDO_ITEM_BUTTON']; ?></button>
         </a> </div>
       <div class="termekek col-xs-12 col-md-6 bg2">
         <div class="col-xs-12 col-md-4"> <img src="img/scudo-mosogel-white.png" alt="" class="img-responsive"> </div>
         <div class="col-xs-12 col-md-8">
-          <h3 class="text-capitalize">Mosógél white<br>
+          <h3 class="text-capitalize"><?php echo $lang['SCUDO_ITEM_NAME_2']; ?><br>
             <span>1,5l / 3l /4,5l</span></h3>
           <ul>
-            <li>Használható gépi illetve kézi mosáshoz is egyaránt.</li>
-            <li>Eltávolítja a makacs foltokat és kellemes
-              üde illatot biztosít fehér ruhái számára.</li>
-            <li>15/30/45 mosáshoz</li>
+            <?php echo $lang['SCUDO_ITEM_NAME_2_DESC']; ?>
           </ul>
         </div>
         <a href="termeknezet.html">
-        <button class="btn btn-primary text-uppercase">részletek</button>
+        <button class="btn btn-primary text-uppercase"><?php echo $lang['SCUDO_ITEM_BUTTON']; ?></button>
         </a> </div>
     </div>
   </div>
@@ -105,7 +100,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-xs-12 padding-none">
-        <h2 class="text-capitalize text-center">scudo konyhai mosogatószerek</h2>
+        <h2 class="text-capitalize text-center"><?php echo $lang['SCUDO_TITLE_2']; ?></h2>
       </div>
     </div>
   </div>
@@ -114,26 +109,26 @@
       <div class="termekek col-xs-12 col-md-6 bg1">
         <div class="col-xs-12 col-md-4"> <img src="img/scudo-konyhai-mosogatoszer.png" alt="" class="img-responsive"> </div>
         <div class="col-xs-12 col-md-8">
-          <h3 class="text-capitalize">konyhai mosogatószer<br>
-            <span>0,5l/1l | Citrom és zöldalma illattal</span></h3>
+          <h3 class="text-capitalize"><?php echo $lang['SCUDO_ITEM_NAME_3']; ?><br>
+            <span><?php echo $lang['SCUDO_ITEM_NAME_3_SPECS']; ?></span></h3>
           <ul>
-            <li>Tökéletesen eltávolítja a zsírt és az olajos szennyeződéseket.</li>
+            <?php echo $lang['SCUDO_ITEM_NAME_3_DESC']; ?>
           </ul>
         </div>
         <a href="termeknezet.html">
-        <button class="btn btn-primary text-uppercase">részletek</button>
+        <button class="btn btn-primary text-uppercase"><?php echo $lang['SCUDO_ITEM_BUTTON']; ?></button>
         </a> </div>
       <div class="termekek col-xs-12 col-md-6 bg2">
         <div class="col-xs-12 col-md-4"> <img src="img/scudo-konyhai-mosogatoszer5l.png" alt="" class="img-responsive"> </div>
         <div class="col-xs-12 col-md-8">
-          <h3 class="text-capitalize">konyhai mosogatószer<br>
-            <span>5l | Praktikus nagykiszerelés | Friss citrusos illattal | Professzionális - és lakossági használatra</span></h3>
+          <h3 class="text-capitalize"><?php echo $lang['SCUDO_ITEM_NAME_4']; ?><br>
+            <span><?php echo $lang['SCUDO_ITEM_NAME_4_SPECS']; ?></span></h3>
           <ul>
-            <li>Tökéletesen eltávolítja a zsírt és az olajos szennyeződéseket.</li>
+            <?php echo $lang['SCUDO_ITEM_NAME_4_DESC']; ?>
           </ul>
         </div>
         <a href="termeknezet.html">
-        <button class="btn btn-primary text-uppercase">részletek</button>
+        <button class="btn btn-primary text-uppercase"><?php echo $lang['SCUDO_ITEM_BUTTON']; ?></button>
         </a> </div>
     </div>
   </div>
@@ -142,7 +137,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-xs-12 padding-none">
-        <h2 class="text-capitalize text-center">scudo mosógél kapszulák</h2>
+        <h2 class="text-capitalize text-center"><?php echo $lang['SCUDO_TITLE_3']; ?></h2>
       </div>
     </div>
   </div>
@@ -151,26 +146,26 @@
       <div class="termekek col-xs-12 col-md-6 bg1">
         <div class="col-xs-12 col-md-4"> <img src="img/scudo-mosogel-kapszula-color.png" alt="" class="img-responsive"> </div>
         <div class="col-xs-12 col-md-8">
-          <h3 class="text-capitalize">mosógél kapszula color<br>
+          <h3 class="text-capitalize"><?php echo $lang['SCUDO_ITEM_NAME_5']; ?><br>
             <span>30 db</span></h3>
           <ul>
-            <li>Egykamrás mosógél kapszula, koncentrált mosószer, praktikus előre kiadagolt formában, aktív színvédelemmel.</li>
+            <?php echo $lang['SCUDO_ITEM_NAME_5_DESC']; ?>
           </ul>
         </div>
         <a href="termeknezet.html">
-        <button class="btn btn-primary text-uppercase">részletek</button>
+        <button class="btn btn-primary text-uppercase"><?php echo $lang['SCUDO_ITEM_BUTTON']; ?></button>
         </a> </div>
       <div class="termekek col-xs-12 col-md-6 bg2">
         <div class="col-xs-12 col-md-4"> <img src="img/scudo-mosogel-kapszula-white.png" alt="" class="img-responsive"> </div>
         <div class="col-xs-12 col-md-8">
-          <h3 class="text-capitalize">Mosógél kapszula white<br>
+          <h3 class="text-capitalize"><?php echo $lang['SCUDO_ITEM_NAME_6']; ?><br>
             <span>30 db</span></h3>
           <ul>
-            <li>Egykamrás mosógél kapszula, koncentrált mosószer, praktikus előre kiadagolt formában, aktív színvédelemmel.</li>
+            <?php echo $lang['SCUDO_ITEM_NAME_6_DESC']; ?>
           </ul>
         </div>
         <a href="termeknezet.html">
-        <button class="btn btn-primary text-uppercase">részletek</button>
+        <button class="btn btn-primary text-uppercase"><?php echo $lang['SCUDO_ITEM_BUTTON']; ?></button>
         </a> </div>
     </div>
   </div>
@@ -179,7 +174,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-xs-12 padding-none">
-        <h2 class="text-capitalize text-center">scudo tisztítószerek</h2>
+        <h2 class="text-capitalize text-center"><?php echo $lang['SCUDO_TITLE_4']; ?></h2>
       </div>
     </div>
   </div>
@@ -188,65 +183,62 @@
       <div class="termekek col-xs-12 col-md-6 bg1">
         <div class="col-xs-12 col-md-4"> <img src="img/scudo-furdoszobai-tisztitoszer.png" alt="" class="img-responsive"> </div>
         <div class="col-xs-12 col-md-8">
-          <h3 class="text-capitalize">fürdőszobai tisztítószer<br>
+          <h3 class="text-capitalize"><?php echo $lang['SCUDO_ITEM_NAME_7']; ?><br>
             <span>750 ml</span></h3>
           <ul>
-            <li>A fürdőszobai tisztító eltávolítja a vízkövet, szappanmaradékokat és egyéb szennyeződéseket is fürdőszobájában.</li>
-            <li>Használata után csillogást biztosít.</li>
+            <?php echo $lang['SCUDO_ITEM_NAME_7_DESC']; ?>
           </ul>
         </div>
         <a href="termeknezet.html">
-        <button class="btn btn-primary text-uppercase">részletek</button>
+        <button class="btn btn-primary text-uppercase"><?php echo $lang['SCUDO_ITEM_BUTTON']; ?></button>
         </a> </div>
       <div class="termekek col-xs-12 col-md-6 bg2">
         <div class="col-xs-12 col-md-4"> <img src="img/scudo-fa-butorapolo-folyadek.png" alt="" class="img-responsive"> </div>
         <div class="col-xs-12 col-md-8">
-          <h3 class="text-capitalize">fa - és bútorápoló folyadék<br>
+          <h3 class="text-capitalize"><?php echo $lang['SCUDO_ITEM_NAME_8']; ?><br>
             <span>500 ml</span></h3>
           <ul>
-            <li>Kényelmesen és gyorsan tisztítja, ápolja és óvja a bútorokat.</li>
-            <li>Kellemes illatot kölcsönöz, és hosszantartó fényről gondoskodik.</li>
+            <?php echo $lang['SCUDO_ITEM_NAME_8_DESC']; ?>
           </ul>
         </div>
         <a href="termeknezet.html">
-        <button class="btn btn-primary text-uppercase">részletek</button>
+        <button class="btn btn-primary text-uppercase"><?php echo $lang['SCUDO_ITEM_BUTTON']; ?></button>
         </a> </div>
       <div class="termekek col-xs-12 col-md-6 bg3">
         <div class="col-xs-12 col-md-4"> <img src="img/scudo-muanyagbutor-tisztito-folyadek.png" alt="" class="img-responsive"> </div>
         <div class="col-xs-12 col-md-8">
-          <h3 class="text-capitalize">műanyagbútor - tisztító folyadék<br>
+          <h3 class="text-capitalize"><?php echo $lang['SCUDO_ITEM_NAME_9']; ?><br>
             <span>750 ml</span></h3>
           <ul>
-            <li>Kényelmesen és gyorsan tisztítja speciálisan a műanyag bútorokat.</li>
-            <li>Friss illatot hagy maga után.</li>
+            <?php echo $lang['SCUDO_ITEM_NAME_9_DESC']; ?>
           </ul>
         </div>
         <a href="termeknezet.html">
-        <button class="btn btn-primary text-uppercase">részletek</button>
+        <button class="btn btn-primary text-uppercase"><?php echo $lang['SCUDO_ITEM_BUTTON']; ?></button>
         </a> </div>
       <div class="termekek col-xs-12 col-md-6 bg4">
         <div class="col-xs-12 col-md-4"> <img src="img/scudo-zsiroldo.png" alt="" class="img-responsive"> </div>
         <div class="col-xs-12 col-md-8">
-          <h3 class="text-capitalize">zsíroldó<br>
+          <h3 class="text-capitalize"><?php echo $lang['SCUDO_ITEM_NAME_10']; ?><br>
             <span>750 ml</span></h3>
           <ul>
-            <li>Használatával a legmakacsabb zsíros szennyeződések is könnyedén eltávolíthatóak.</li>
+            <?php echo $lang['SCUDO_ITEM_NAME_10_DESC']; ?>
           </ul>
         </div>
         <a href="termeknezet.html">
-        <button class="btn btn-primary text-uppercase">részletek</button>
+        <button class="btn btn-primary text-uppercase"><?php echo $lang['SCUDO_ITEM_BUTTON']; ?></button>
         </a></div>
       <div class="termekek col-xs-12 col-md-6 bg1">
         <div class="col-xs-12 col-md-4"> <img src="img/scudo-vizlagyito-gel.png" alt="" class="img-responsive"> </div>
         <div class="col-xs-12 col-md-8">
-          <h3 class="text-capitalize">vízlágyító gél<br>
+          <h3 class="text-capitalize"><?php echo $lang['SCUDO_ITEM_NAME_11']; ?><br>
             <span>1000 ml</span></h3>
           <ul>
-            <li>Hatékonyan lágyítja a vizet, ahol arra szüksége van a háztartásban, megfelelően lágy vizet biztosít a háztartás technikai készülékei számára.</li>
+            <?php echo $lang['SCUDO_ITEM_NAME_11_DESC']; ?>
           </ul>
         </div>
         <a href="termeknezet.html">
-        <button class="btn btn-primary text-uppercase">részletek</button>
+        <button class="btn btn-primary text-uppercase"><?php echo $lang['SCUDO_ITEM_BUTTON']; ?></button>
         </a> </div>
     </div>
   </div>
@@ -255,13 +247,13 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-md-3">
-        <div id="logo2" class="text-center col-sm-offset-4 col-sm-4"> <a href="index.html"><img src="img/logo.png" alt="logo"></a> </div>
+        <div id="logo2" class="text-center col-sm-offset-4 col-sm-4"> <a href="index.php"><img src="img/logo.png" alt="logo"></a> </div>
       </div>
       <div class="col-xs-12 col-sm-8 col-md-6">
         <ul class="nav navbar-nav">
-          <li><a href="lily.html" class="text-uppercase">Lily </a></li>
-          <li><a href="scudo.html" class="text-uppercase">Scudo</a></li>
-          <li><a href="index.html#kapcsolat" class="text-uppercase">Kapcsolat</a></li>
+          <li><a href="lily.php" class="text-uppercase"><?php echo $lang['MENU_1']; ?></a></li>
+          <li><a href="scudo.php" class="text-uppercase"><?php echo $lang['MENU_2']; ?></a></li>
+          <li><a href="index.php#kapcsolat" class="text-uppercase"><?php echo $lang['MENU_3']; ?></a></li>
           <li><a href="aszf.html" class="text-uppercase">ászf</a></li>
         </ul>
       </div>
