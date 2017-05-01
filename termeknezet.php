@@ -1,5 +1,7 @@
 <?php
   require_once 'langselect.php';
+  $id = $_GET['id'];
+  echo $id;
 ?>
 <!DOCTYPE html>
 <html lang="hu">
@@ -29,9 +31,9 @@
       <div id="logo" class="text-center col-sm-offset-4 col-sm-4"> <a href="index.html"><img src="img/logo.png" alt="logo"></a> </div>
       <div class="col-sm-offset-1 col-sm-1 text-right dropdown" id="lang"> <a id="dLabel" type="button" class="text-uppercase" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?php echo $lang['MENU_HUEN']; ?><span class="caret"></span> </a>
         <ul class="dropdown-menu text-uppercase" aria-labelledby="dLabel">
-          <li><a href="?lang=hu"><?php echo $lang['Hungary']; ?></a></li>
-          <li><a href="?lang=en"><?php echo $lang['English']; ?></a></li>
-          <li><a href="?lang=de"><?php echo $lang['Deutsch']; ?></a></li>
+          <li><a href="?lang=hu&id=<?php echo $id; ?>"><?php echo $lang['Hungary']; ?></a></li>
+          <li><a href="?lang=en&id=<?php echo $id; ?>"><?php echo $lang['English']; ?></a></li>
+          <li><a href="?lang=de&id=<?php echo $id; ?>"><?php echo $lang['Deutsch']; ?></a></li>
         </ul>
       </div>
     </div>
@@ -63,7 +65,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-xs-12 padding-none">
-        <h2 class="text-capitalize text-center">vásárlói tájékoztató</h2>
+        <h2 class="text-capitalize text-center"><?php echo $lang['PRODUCT_PAGE_TITLE']; ?></h2>
       </div>
     </div>
   </div>
@@ -77,13 +79,13 @@
           <ul>
             <li>Kétkamrás mosógél kapszula, mosógél  koncentrátum és folteltávolító adalékanyaggal-és színvédelemmel 2/1-ben, praktikus előre kiadagolt formában.</li>
           </ul>
-          <h4 class="text-capitalize">összetevők:</h4>
+          <h4 class="text-capitalize"><?php echo $lang['PRODUCT_PAGE_INGR']; ?></h4>
           <p>Glycereth-6 Cocoate, Glycerin, Cocamide MEA, Aqua, Polyvinyl Alcohol MIPA Laureth Sulfate, PEG-4 Rapeseedamide Sodium diethylenetriamine pentamethylene phosphonat, Perfume, 		Propylene Glycol, Colorant, PVP, Sodium Formate, Enzyme -Subtilisin, Denatonium Benzoate<br>
             <br>
             <span> Minden összetevő az INCI nevével van feltüntetve (International Nomenclature of Cosmetic Ingredients = A Kozmetikai Összetevők Internacionális Nómenklatúrája), vagy ha INCI neve nincs az összetevőnek, akkor a nemzetközileg elfogadott kémiai nevével van megadva. INCI</span></p>
-          <a id="pdf" href="pdf/BA Lily Washing Gel Capsules color VERZIO 1.0.pdf" download target="_blank"><img src="img/pdf.png" alt="pdf" class="text-center text-capitalize"> Biztonsági adatlap</a> </div>
+          <a id="pdf" href="pdf/BA Lily Washing Gel Capsules color VERZIO 1.0.pdf" download target="_blank"><img src="img/pdf.png" alt="pdf" class="text-center text-capitalize"><?php echo $lang['PRODUCT_PAGE_PDF']; ?></a> </div>
         <a href="#">
-        <button class="btn btn-primary text-uppercase">vissza</button>
+        <button class="btn btn-primary text-uppercase"><?php echo $lang['PRODUCT_PAGE_BUTTON']; ?></button>
         </a></div>
     </div>
   </div>
@@ -92,14 +94,14 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-md-3">
-        <div id="logo2" class="text-center col-sm-offset-4 col-sm-4"> <a href="index.html"><img src="img/logo.png" alt="logo"></a> </div>
+        <div id="logo2" class="text-center col-sm-offset-4 col-sm-4"> <a href="index.php"><img src="img/logo.png" alt="logo"></a> </div>
       </div>
       <div class="col-xs-12 col-sm-8 col-md-6">
         <ul class="nav navbar-nav">
-          <li><a href="lily.html" class="text-uppercase">Lily </a></li>
-          <li><a href="scudo.html" class="text-uppercase">Scudo</a></li>
-          <li><a href="index.html#kapcsolat" class="text-uppercase">Kapcsolat</a></li>
-          <li><a href="aszf.html" class="text-uppercase">ászf</a></li>
+          <li><a href="lily.php" class="text-uppercase"><?php echo $lang['MENU_1']; ?> </a></li>
+          <li><a href="scudo.php" class="text-uppercase"><?php echo $lang['MENU_2']; ?></a></li>
+          <li><a href="index.php#kapcsolat" class="text-uppercase"><?php echo $lang['MENU_3']; ?></a></li>
+          <li><a href="#" class="text-uppercase">ászf</a></li>
         </ul>
       </div>
       <div class="col-xs-12 col-sm-3 col-md-3">

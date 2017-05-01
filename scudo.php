@@ -78,7 +78,7 @@
             <?php echo $lang['SCUDO_ITEM_NAME_1_DESC']; ?>
           </ul>
         </div>
-        <a href="termeknezet.html">
+        <a href="termeknezet.php?id=9">
         <button class="btn btn-primary text-uppercase"><?php echo $lang['SCUDO_ITEM_BUTTON']; ?></button>
         </a> </div>
       <div class="termekek col-xs-12 col-md-6 bg2">
@@ -90,7 +90,7 @@
             <?php echo $lang['SCUDO_ITEM_NAME_2_DESC']; ?>
           </ul>
         </div>
-        <a href="termeknezet.html">
+        <a href="termeknezet.php?id=10">
         <button class="btn btn-primary text-uppercase"><?php echo $lang['SCUDO_ITEM_BUTTON']; ?></button>
         </a> </div>
     </div>
@@ -115,7 +115,7 @@
             <?php echo $lang['SCUDO_ITEM_NAME_3_DESC']; ?>
           </ul>
         </div>
-        <a href="termeknezet.html">
+        <a href="termeknezet.php?id=11">
         <button class="btn btn-primary text-uppercase"><?php echo $lang['SCUDO_ITEM_BUTTON']; ?></button>
         </a> </div>
       <div class="termekek col-xs-12 col-md-6 bg2">
@@ -127,7 +127,7 @@
             <?php echo $lang['SCUDO_ITEM_NAME_4_DESC']; ?>
           </ul>
         </div>
-        <a href="termeknezet.html">
+        <a href="termeknezet.php?id=12">
         <button class="btn btn-primary text-uppercase"><?php echo $lang['SCUDO_ITEM_BUTTON']; ?></button>
         </a> </div>
     </div>
@@ -152,7 +152,7 @@
             <?php echo $lang['SCUDO_ITEM_NAME_5_DESC']; ?>
           </ul>
         </div>
-        <a href="termeknezet.html">
+        <a href="termeknezet.php?id=13">
         <button class="btn btn-primary text-uppercase"><?php echo $lang['SCUDO_ITEM_BUTTON']; ?></button>
         </a> </div>
       <div class="termekek col-xs-12 col-md-6 bg2">
@@ -164,7 +164,7 @@
             <?php echo $lang['SCUDO_ITEM_NAME_6_DESC']; ?>
           </ul>
         </div>
-        <a href="termeknezet.html">
+        <a href="termeknezet.php?id=14">
         <button class="btn btn-primary text-uppercase"><?php echo $lang['SCUDO_ITEM_BUTTON']; ?></button>
         </a> </div>
     </div>
@@ -189,7 +189,7 @@
             <?php echo $lang['SCUDO_ITEM_NAME_7_DESC']; ?>
           </ul>
         </div>
-        <a href="termeknezet.html">
+        <a href="termeknezet.php?id=15">
         <button class="btn btn-primary text-uppercase"><?php echo $lang['SCUDO_ITEM_BUTTON']; ?></button>
         </a> </div>
       <div class="termekek col-xs-12 col-md-6 bg2">
@@ -201,7 +201,7 @@
             <?php echo $lang['SCUDO_ITEM_NAME_8_DESC']; ?>
           </ul>
         </div>
-        <a href="termeknezet.html">
+        <a href="termeknezet.php?id=16">
         <button class="btn btn-primary text-uppercase"><?php echo $lang['SCUDO_ITEM_BUTTON']; ?></button>
         </a> </div>
       <div class="termekek col-xs-12 col-md-6 bg3">
@@ -213,7 +213,7 @@
             <?php echo $lang['SCUDO_ITEM_NAME_9_DESC']; ?>
           </ul>
         </div>
-        <a href="termeknezet.html">
+        <a href="termeknezet.php?id=17">
         <button class="btn btn-primary text-uppercase"><?php echo $lang['SCUDO_ITEM_BUTTON']; ?></button>
         </a> </div>
       <div class="termekek col-xs-12 col-md-6 bg4">
@@ -225,7 +225,7 @@
             <?php echo $lang['SCUDO_ITEM_NAME_10_DESC']; ?>
           </ul>
         </div>
-        <a href="termeknezet.html">
+        <a href="termeknezet.php?id=18">
         <button class="btn btn-primary text-uppercase"><?php echo $lang['SCUDO_ITEM_BUTTON']; ?></button>
         </a></div>
       <div class="termekek col-xs-12 col-md-6 bg1">
@@ -237,7 +237,7 @@
             <?php echo $lang['SCUDO_ITEM_NAME_11_DESC']; ?>
           </ul>
         </div>
-        <a href="termeknezet.html">
+        <a href="termeknezet.php?id=19">
         <button class="btn btn-primary text-uppercase"><?php echo $lang['SCUDO_ITEM_BUTTON']; ?></button>
         </a> </div>
     </div>

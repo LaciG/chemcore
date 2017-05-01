@@ -77,7 +77,7 @@
               <?php echo $lang['LILY_ITEM_NAME_1_DESC']; ?>
             </ul>
           </div>
-          <a href="termeknezet.html">
+          <a href="termeknezet.php?id=1">
           <button class="btn btn-primary text-uppercase"><?php echo $lang['LILY_BUTTON']; ?></button>
           </a> </div>
         <div class="termekek col-xs-12 col-md-6 bg2">
@@ -89,7 +89,7 @@
               <?php echo $lang['LILY_ITEM_NAME_2_DESC']; ?>
             </ul>
           </div>
-          <a href="termeknezet.html">
+          <a href="termeknezet.php?id=2">
           <button class="btn btn-primary text-uppercase"><?php echo $lang['LILY_BUTTON']; ?></button>
           </a> </div>
         <div class="termekek col-xs-12 col-md-6 bg3">
@@ -101,7 +101,7 @@
               <?php echo $lang['LILY_ITEM_NAME_3_DESC']; ?>
             </ul>
           </div>
-          <a href="termeknezet.html">
+          <a href="termeknezet.php?id=3">
           <button class="btn btn-primary text-uppercase"><?php echo $lang['LILY_BUTTON']; ?></button>
           </a> </div>
         <div class="termekek col-xs-12 col-md-6 bg4">
@@ -113,7 +113,7 @@
               <?php echo $lang['LILY_ITEM_NAME_4_DESC']; ?>
             </ul>
           </div>
-          <a href="termeknezet.html">
+          <a href="termeknezet.php?id=4">
           <button class="btn btn-primary text-uppercase"><?php echo $lang['LILY_BUTTON']; ?></button>
           </a> </div>
       </div>
@@ -138,7 +138,7 @@
               <?php echo $lang['LILY_ITEM_NAME_5_DESC']; ?>
             </ul>
           </div>
-          <a href="termeknezet.html">
+          <a href="termeknezet.php?id=5">
           <button class="btn btn-primary text-uppercase"><?php echo $lang['LILY_BUTTON']; ?></button>
           </a> </div>
         <div class="termekek col-xs-12 col-md-6 bg2">
@@ -150,7 +150,7 @@
               <?php echo $lang['LILY_ITEM_NAME_6_DESC']; ?>
             </ul>
           </div>
-          <a href="termeknezet.html">
+          <a href="termeknezet.php?id=6">
           <button class="btn btn-primary text-uppercase"><?php echo $lang['LILY_BUTTON']; ?></button>
           </a> </div>
         <div class="termekek col-xs-12 col-md-6 bg3">
@@ -162,7 +162,7 @@
               <?php echo $lang['LILY_ITEM_NAME_7_DESC']; ?>
             </ul>
           </div>
-          <a href="termeknezet.html">
+          <a href="termeknezet.php?id=7">
           <button class="btn btn-primary text-uppercase"><?php echo $lang['LILY_BUTTON']; ?></button>
           </a> </div>
         <div class="termekek col-xs-12 col-md-6 bg4">
@@ -174,7 +174,7 @@
               <?php echo $lang['LILY_ITEM_NAME_8_DESC']; ?>
             </ul>
           </div>
-          <a href="termeknezet.html">
+          <a href="termeknezet.php?id=8">
           <button class="btn btn-primary text-uppercase"><?php echo $lang['LILY_BUTTON']; ?></button>
           </a> </div>
       </div>

@@ -172,4 +172,11 @@ $lang['MESSAGE_REST'] =" Thank you for your message, we will contact you as soon
 
     $lang['SCUDO_ITEM_BUTTON'] = "Részletek";
 //-----//
+
+//Terméknézet
+    $lang['PRODUCT_PAGE_TITLE'] = "Vásárlói Tájékoztató";
+    $lang['PRODUCT_PAGE_INGR'] = "Összetevők";
+    $lang['PRODUCT_PAGE_PDF'] = "Biztonsági Adatlap";
+    $lang['PRODUCT_PAGE_BUTTON'] = "Vissza";
+//-----//
 ?>

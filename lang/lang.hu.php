@@ -76,18 +76,22 @@ $lang['MESSAGE_REST'] ="Köszönjük, amint tudunk kapcsoaltba lépünk önnel."
     
     $lang['LILY_ITEM_NAME_1_PIC'] = "img/mosogel-kapszula-color.png";
     $lang['LILY_ITEM_NAME_1'] = "Mosógél kapszula color";
+    $lang['LILY_ITEM_1_SPECS'] = "";
     $lang['LILY_ITEM_NAME_1_DESC'] = "<li>Kétkamrás mosógél kapszula, mosógél koncentrátum és folteltávolító adalékanyaggal-és színvédelemmel 2/1-ben, praktikus előre kiadagolt formában.</li>";
     $lang['LILY_ITEM_NAME_2_PIC'] = "img/mosogel-kapszula-white.png";
     $lang['LILY_ITEM_NAME_2'] = "Mosógél kapszula white";
+    $lang['LILY_ITEM_2_SPECS'] = "";
     $lang['LILY_ITEM_NAME_2_DESC'] = "<li>Kétkamrás mosógél kapszula, mosógél koncentrátum és folteltávolító adalékanyaggal-és optikai fehérítővel a kristálytiszta fehér ruhákért – 2/1-ben, praktikus előre kiadagolt formában. </li>";
     $lang['LILY_ITEM_NAME_3_PIC'] = "img/mososzer-color.png";
     $lang['LILY_ITEM_NAME_3'] = "Mosószer color";
+    $lang['LILY_ITEM_3_SPECS'] = "";
     $lang['LILY_ITEM_NAME_3_DESC'] = "<li>Minőségi, koncentrált mosószer többféle tenzid és az enzim erejével</li>
               <li>Egyaránt használható gépi illetve kézi mosáshoz is.</li>
               <li>Minden ruhatípushoz alkalmazható, védi és megőrzi ruhái eredeti színét.</li>
               <li>30/45/90 mosás</li>";
     $lang['LILY_ITEM_NAME_4_PIC'] = "img/mososzer-white.png";
     $lang['LILY_ITEM_NAME_4'] = "Mosószer white";
+    $lang['LILY_ITEM_4_SPECS'] = "";
     $lang['LILY_ITEM_NAME_4_DESC'] = "<li>Minőségi, koncentrált mosószer többféle tenzid és az enzim erejével</li>
               <li>Egyaránt használható gépi illetve kézi mosáshoz is.</li>
               <li>Fehér és kevésbé színtartó ruhák mosásához ajánlott, fehérítő adalékot tartalmazó koncentrált formula.</li>
@@ -97,14 +101,17 @@ $lang['MESSAGE_REST'] ="Köszönjük, amint tudunk kapcsoaltba lépünk önnel."
 
     $lang['LILY_ITEM_NAME_5_PIC'] = "img/mosopor-color.png";
     $lang['LILY_ITEM_NAME_5'] = "Mosópor color";
+    $lang['LILY_ITEM_5_SPECS'] = "";
     $lang['LILY_ITEM_NAME_5_DESC'] = "<li>30/60 mosás</li>
               <li>Minőségi mosópor színes ruhákhoz ajánlva</li>";
     $lang['LILY_ITEM_NAME_6_PIC'] = "img/mosopor-white.png";
     $lang['LILY_ITEM_NAME_6'] = "Mosópor white";
+    $lang['LILY_ITEM_6_SPECS'] = "";
     $lang['LILY_ITEM_NAME_6_DESC'] = "<li>K30/60 mosás</li>
               <li>Minőségi mosóspor, kifejezetten fehér és nem színtartó ruhák, pelenkák mosásához, aktív folteltávolító hatással.</li>";
     $lang['LILY_ITEM_NAME_7_PIC'] = "img/mosopor-universal.png";
     $lang['LILY_ITEM_NAME_7'] = "Mosópor universal";
+    $lang['LILY_ITEM_7_SPECS'] = "";
     $lang['LILY_ITEM_NAME_7_DESC'] = "<li>90 mosás</li>
               <li>Minőségi mosóspor színes és fehér ruhákhoz egyaránt ajánlva</li>";
     $lang['LILY_ITEM_NAME_8_PIC'] = "img/textiloblito.png";
@@ -119,11 +126,13 @@ $lang['MESSAGE_REST'] ="Köszönjük, amint tudunk kapcsoaltba lépünk önnel."
 
         $lang['SCUDO_ITEM_NAME_1_PIC'] = "img/scudo-mosogel-color.png";
         $lang['SCUDO_ITEM_NAME_1'] = "Mosógél color";
+        $lang['SCUDO_ITEM_1_SPECS'] = "";
         $lang['SCUDO_ITEM_NAME_1_DESC'] = "<li>Használható gépi illetve kézi mosáshoz is egyaránt.</li>
             <li>Minden ruhatípushoz alkalmazható, védi és megőrzi ruhái eredeti színét.</li>
             <li>15/30/45 mosáshoz</li>";
         $lang['SCUDO_ITEM_NAME_2_PIC'] = "img/scudo-mosogel-white.png";
         $lang['SCUDO_ITEM_NAME_2'] = "Mosógél white";
+        $lang['SCUDO_ITEM_2_SPECS'] = "";
         $lang['SCUDO_ITEM_NAME_2_DESC'] = "<li>Használható gépi illetve kézi mosáshoz is egyaránt.</li>
             <li>Eltávolítja a makacs foltokat és kellemes
               üde illatot biztosít fehér ruhái számára.</li>
@@ -144,32 +153,46 @@ $lang['MESSAGE_REST'] ="Köszönjük, amint tudunk kapcsoaltba lépünk önnel."
 
         $lang['SCUDO_ITEM_NAME_5_PIC'] = "img/scudo-mosogel-kapszula-color.png";
         $lang['SCUDO_ITEM_NAME_5'] = "mosógél kapszula color";
+        $lang['SCUDO_ITEM_5_SPECS'] = "";
         $lang['SCUDO_ITEM_NAME_5_DESC'] = "<li>Egykamrás mosógél kapszula, koncentrált mosószer, praktikus előre kiadagolt formában, aktív színvédelemmel.</li>";
         $lang['SCUDO_ITEM_NAME_6_PIC'] = "img/scudo-mosogel-kapszula-white.png";
         $lang['SCUDO_ITEM_NAME_6'] = "Mosógél kapszula white";
+        $lang['SCUDO_ITEM_6_SPECS'] = "";
         $lang['SCUDO_ITEM_NAME_6_DESC'] = "<li>Egykamrás mosógél kapszula, koncentrált mosószer, praktikus előre kiadagolt formában, aktív színvédelemmel.</li>";
 
     $lang['SCUDO_TITLE_4'] = "scudo tisztítószerek";
 
         $lang['SCUDO_ITEM_NAME_7_PIC'] = "img/scudo-furdoszobai-tisztitoszer.png";
         $lang['SCUDO_ITEM_NAME_7'] = "fürdőszobai tisztítószer";
+        $lang['SCUDO_ITEM_7_SPECS'] = "";
         $lang['SCUDO_ITEM_NAME_7_DESC'] = "<li>A fürdőszobai tisztító eltávolítja a vízkövet, szappanmaradékokat és egyéb szennyeződéseket is fürdőszobájában.</li>
             <li>Használata után csillogást biztosít.</li>";
         $lang['SCUDO_ITEM_NAME_8_PIC'] = "img/scudo-fa-butorapolo-folyadek.png";
         $lang['SCUDO_ITEM_NAME_8'] = "fa - és bútorápoló folyadék";
+        $lang['SCUDO_ITEM_8_SPECS'] = "";
         $lang['SCUDO_ITEM_NAME_8_DESC'] = "<li>Kényelmesen és gyorsan tisztítja, ápolja és óvja a bútorokat.</li>
             <li>Kellemes illatot kölcsönöz, és hosszantartó fényről gondoskodik.</li>";
         $lang['SCUDO_ITEM_NAME_9_PIC'] = "img/scudo-muanyagbutor-tisztito-folyadek.png";
         $lang['SCUDO_ITEM_NAME_9'] = "műanyagbútor - tisztító folyadék";
+        $lang['SCUDO_ITEM_9_SPECS'] = "";
         $lang['SCUDO_ITEM_NAME_9_DESC'] = "<li>Kényelmesen és gyorsan tisztítja speciálisan a műanyag bútorokat.</li>
             <li>Friss illatot hagy maga után.</li>";
         $lang['SCUDO_ITEM_NAME_10_PIC'] = "img/scudo-zsiroldo.png";
         $lang['SCUDO_ITEM_NAME_10'] = "zsíroldó";
+        $lang['SCUDO_ITEM_10_SPECS'] = "";
         $lang['SCUDO_ITEM_NAME_10_DESC'] = "<li>Használatával a legmakacsabb zsíros szennyeződések is könnyedén eltávolíthatóak.</li>";
         $lang['SCUDO_ITEM_NAME_11_PIC'] = "img/scudo-vizlagyito-gel.png";
         $lang['SCUDO_ITEM_NAME_11'] = "vízlágyító gél";
+        $lang['SCUDO_ITEM_11_SPECS'] = "";
         $lang['SCUDO_ITEM_NAME_11_DESC'] = "<li>Hatékonyan lágyítja a vizet, ahol arra szüksége van a háztartásban, megfelelően lágy vizet biztosít a háztartás technikai készülékei számára.</li>";
 
     $lang['SCUDO_ITEM_BUTTON'] = "Részletek";
+//-----//
+
+//Terméknézet
+    $lang['PRODUCT_PAGE_TITLE'] = "Vásárlói Tájékoztató";
+    $lang['PRODUCT_PAGE_INGR'] = "Összetevők:";
+    $lang['PRODUCT_PAGE_PDF'] = "Biztonsági Adatlap";
+    $lang['PRODUCT_PAGE_BUTTON'] = "Vissza";
 //-----//
 ?>
