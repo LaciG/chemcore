@@ -72,7 +72,7 @@
   <div class="container">
     <div class="row">
       <div class="termekek col-xs-12">
-        <div class="col-xs-12 col-md-4"> <img src="img/mosogel-kapszula-color.png" alt="" class="img-responsive"> </div>
+        <div class="col-xs-12 col-md-4"> <?php include_once 'lily/image.php'; ?> </div>
         <div class="col-xs-12 col-md-8">
           <h3 class="text-capitalize">mosógél kapszula color<br>
             <span>15 db</span></h3>
