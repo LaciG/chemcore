@@ -72,18 +72,18 @@
   <div class="container">
     <div class="row">
       <div class="termekek col-xs-12">
-        <div class="col-xs-12 col-md-4"> <?php include_once 'lily/image.php'; ?> </div>
+        <div class="col-xs-12 col-md-4"> <?php include_once 'product/image.php'; ?> </div>
         <div class="col-xs-12 col-md-8">
-          <h3 class="text-capitalize">mosógél kapszula color<br>
-            <span>15 db</span></h3>
+          <h3 class="text-capitalize"><?php include_once 'product/name.php'; ?><br>
+            <span><?php include_once 'product/specs.php'; ?></span></h3>
           <ul>
-            <li>Kétkamrás mosógél kapszula, mosógél  koncentrátum és folteltávolító adalékanyaggal-és színvédelemmel 2/1-ben, praktikus előre kiadagolt formában.</li>
+            <?php include_once 'product/desc.php'; ?>
           </ul>
           <h4 class="text-capitalize"><?php echo $lang['PRODUCT_PAGE_INGR']; ?></h4>
-          <p>Glycereth-6 Cocoate, Glycerin, Cocamide MEA, Aqua, Polyvinyl Alcohol MIPA Laureth Sulfate, PEG-4 Rapeseedamide Sodium diethylenetriamine pentamethylene phosphonat, Perfume, 		Propylene Glycol, Colorant, PVP, Sodium Formate, Enzyme -Subtilisin, Denatonium Benzoate<br>
+          <p><?php include_once 'product/ingredients.php'; ?><br>
             <br>
-            <span> Minden összetevő az INCI nevével van feltüntetve (International Nomenclature of Cosmetic Ingredients = A Kozmetikai Összetevők Internacionális Nómenklatúrája), vagy ha INCI neve nincs az összetevőnek, akkor a nemzetközileg elfogadott kémiai nevével van megadva. INCI</span></p>
-          <a id="pdf" href="pdf/BA Lily Washing Gel Capsules color VERZIO 1.0.pdf" download target="_blank"><img src="img/pdf.png" alt="pdf" class="text-center text-capitalize"><?php echo $lang['PRODUCT_PAGE_PDF']; ?></a> </div>
+            <span><?php echo $lang['PRODUCT_PAGE_INCI']; ?></span></p>
+          <?php include_once 'product/pdf.php'; ?><img src="img/pdf.png" alt="pdf" class="text-center text-capitalize"><?php echo $lang['PRODUCT_PAGE_PDF']; ?></a> </div>
         <a href="#">
         <button class="btn btn-primary text-uppercase"><?php echo $lang['PRODUCT_PAGE_BUTTON']; ?></button>
         </a></div>
