@@ -73,7 +73,7 @@
         <div class="col-xs-12 col-md-4"> <img src="<?php echo $lang['SCUDO_ITEM_NAME_1_PIC']; ?>" alt="" class="img-responsive"> </div>
         <div class="col-xs-12 col-md-8">
           <h3 class="text-capitalize"><?php echo $lang['SCUDO_ITEM_NAME_1']; ?><br>
-            <span>1,5l / 3l /4,5l</span></h3>
+            <span><?php echo $lang['SCUDO_ITEM_1_SPECS']; ?></span></h3>
           <ul>
             <?php echo $lang['SCUDO_ITEM_NAME_1_DESC']; ?>
           </ul>
@@ -85,7 +85,7 @@
         <div class="col-xs-12 col-md-4"> <img src="<?php echo $lang['SCUDO_ITEM_NAME_2_PIC']; ?>" alt="" class="img-responsive"> </div>
         <div class="col-xs-12 col-md-8">
           <h3 class="text-capitalize"><?php echo $lang['SCUDO_ITEM_NAME_2']; ?><br>
-            <span>1,5l / 3l /4,5l</span></h3>
+            <span><?php echo $lang['SCUDO_ITEM_2_SPECS']; ?></span></h3>
           <ul>
             <?php echo $lang['SCUDO_ITEM_NAME_2_DESC']; ?>
           </ul>
@@ -147,7 +147,7 @@
         <div class="col-xs-12 col-md-4"> <img src="<?php echo $lang['SCUDO_ITEM_NAME_5_PIC']; ?>" alt="" class="img-responsive"> </div>
         <div class="col-xs-12 col-md-8">
           <h3 class="text-capitalize"><?php echo $lang['SCUDO_ITEM_NAME_5']; ?><br>
-            <span>30 db</span></h3>
+            <span><?php echo $lang['SCUDO_ITEM_5_SPECS']; ?></span></h3>
           <ul>
             <?php echo $lang['SCUDO_ITEM_NAME_5_DESC']; ?>
           </ul>
@@ -159,7 +159,7 @@
         <div class="col-xs-12 col-md-4"> <img src="<?php echo $lang['SCUDO_ITEM_NAME_6_PIC']; ?>" alt="" class="img-responsive"> </div>
         <div class="col-xs-12 col-md-8">
           <h3 class="text-capitalize"><?php echo $lang['SCUDO_ITEM_NAME_6']; ?><br>
-            <span>30 db</span></h3>
+            <span><?php echo $lang['SCUDO_ITEM_6_SPECS']; ?></span></h3>
           <ul>
             <?php echo $lang['SCUDO_ITEM_NAME_6_DESC']; ?>
           </ul>
@@ -184,7 +184,7 @@
         <div class="col-xs-12 col-md-4"> <img src="<?php echo $lang['SCUDO_ITEM_NAME_7_PIC']; ?>" alt="" class="img-responsive"> </div>
         <div class="col-xs-12 col-md-8">
           <h3 class="text-capitalize"><?php echo $lang['SCUDO_ITEM_NAME_7']; ?><br>
-            <span>750 ml</span></h3>
+            <span><?php echo $lang['SCUDO_ITEM_7_SPECS']; ?></span></h3>
           <ul>
             <?php echo $lang['SCUDO_ITEM_NAME_7_DESC']; ?>
           </ul>
@@ -196,7 +196,7 @@
         <div class="col-xs-12 col-md-4"> <img src="<?php echo $lang['SCUDO_ITEM_NAME_8_PIC']; ?>" alt="" class="img-responsive"> </div>
         <div class="col-xs-12 col-md-8">
           <h3 class="text-capitalize"><?php echo $lang['SCUDO_ITEM_NAME_8']; ?><br>
-            <span>500 ml</span></h3>
+            <span><?php echo $lang['SCUDO_ITEM_8_SPECS']; ?></span></h3>
           <ul>
             <?php echo $lang['SCUDO_ITEM_NAME_8_DESC']; ?>
           </ul>
@@ -208,7 +208,7 @@
         <div class="col-xs-12 col-md-4"> <img src="<?php echo $lang['SCUDO_ITEM_NAME_9_PIC']; ?>" alt="" class="img-responsive"> </div>
         <div class="col-xs-12 col-md-8">
           <h3 class="text-capitalize"><?php echo $lang['SCUDO_ITEM_NAME_9']; ?><br>
-            <span>750 ml</span></h3>
+            <span><?php echo $lang['SCUDO_ITEM_9_SPECS']; ?></span></h3>
           <ul>
             <?php echo $lang['SCUDO_ITEM_NAME_9_DESC']; ?>
           </ul>
@@ -220,7 +220,7 @@
         <div class="col-xs-12 col-md-4"> <img src="<?php echo $lang['SCUDO_ITEM_NAME_10_PIC']; ?>" alt="" class="img-responsive"> </div>
         <div class="col-xs-12 col-md-8">
           <h3 class="text-capitalize"><?php echo $lang['SCUDO_ITEM_NAME_10']; ?><br>
-            <span>750 ml</span></h3>
+            <span><?php echo $lang['SCUDO_ITEM_10_SPECS']; ?></span></h3>
           <ul>
             <?php echo $lang['SCUDO_ITEM_NAME_10_DESC']; ?>
           </ul>
@@ -232,7 +232,7 @@
         <div class="col-xs-12 col-md-4"> <img src="<?php echo $lang['SCUDO_ITEM_NAME_11_PIC']; ?>" alt="" class="img-responsive"> </div>
         <div class="col-xs-12 col-md-8">
           <h3 class="text-capitalize"><?php echo $lang['SCUDO_ITEM_NAME_11']; ?><br>
-            <span>1000 ml</span></h3>
+            <span><?php echo $lang['SCUDO_ITEM_11_SPECS']; ?></span></h3>
           <ul>
             <?php echo $lang['SCUDO_ITEM_NAME_11_DESC']; ?>
           </ul>
