@@ -38,11 +38,11 @@ $lang['ABOUT_US_TESCO'] = "Cégünk egyéb területen 4 országos Tesco PL besz�
 //Háztartási rész
 $lang['USAGE_TITLE'] = "háztartási-vegyipari termékek";
 $lang['USAGE_BOX_TITLE_1'] = "számos használatra";
-$lang['USAGE_BOX_TEXT_1'] = "A tisztítás, takarítás és higiénia számos<br>területét felölelő termékkínálat.";
+$lang['USAGE_BOX_TEXT_1'] = "A tisztítás, takarítás és higiénia számos területét felölelő termékkínálat.";
 $lang['USAGE_BOX_TITLE_2'] = "hatékony termékek";
 $lang['USAGE_BOX_TEXT_2'] = "Gyors és eredményes megoldást nyújtunk minden otthon számára.";
 $lang['USAGE_BOX_TITLE_3'] = "színes termékpaletta";
-$lang['USAGE_BOX_TEXT_3'] = "Magas használati érték, bőséges kínálat,<br>széles választék.";
+$lang['USAGE_BOX_TEXT_3'] = "Magas használati érték, bőséges kínálat, széles választék.";
 //-----//
 
 //SECTION LILY
