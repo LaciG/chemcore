@@ -72,48 +72,48 @@
           <div class="col-xs-12 col-md-4"> <img src="<?php echo $lang['LILY_ITEM_NAME_1_PIC']; ?>" alt="" class="img-responsive"> </div>
           <div class="col-xs-12 col-md-8">
             <h3 class="text-capitalize"><?php echo $lang['LILY_ITEM_NAME_1']; ?><br>
-              <span>15 db</span></h3>
+              <span><?php echo $lang['LILY_ITEM_1_SPECS']; ?></span></h3>
             <ul>
               <?php echo $lang['LILY_ITEM_NAME_1_DESC']; ?>
             </ul>
           </div>
-          <a href="termeknezet.html">
+          <a href="termeknezet.php?id=1">
           <button class="btn btn-primary text-uppercase"><?php echo $lang['LILY_BUTTON']; ?></button>
           </a> </div>
         <div class="termekek col-xs-12 col-md-6 bg2">
           <div class="col-xs-12 col-md-4"> <img src="<?php echo $lang['LILY_ITEM_NAME_2_PIC']; ?>" alt="" class="img-responsive"> </div>
           <div class="col-xs-12 col-md-8">
             <h3 class="text-capitalize"><?php echo $lang['LILY_ITEM_NAME_2']; ?><br>
-              <span>15 db</span></h3>
+              <span><?php echo $lang['LILY_ITEM_2_SPECS']; ?></span></h3>
             <ul>
               <?php echo $lang['LILY_ITEM_NAME_2_DESC']; ?>
             </ul>
           </div>
-          <a href="termeknezet.html">
+          <a href="termeknezet.php?id=2">
           <button class="btn btn-primary text-uppercase"><?php echo $lang['LILY_BUTTON']; ?></button>
           </a> </div>
         <div class="termekek col-xs-12 col-md-6 bg3">
           <div class="col-xs-12 col-md-4"> <img src="<?php echo $lang['LILY_ITEM_NAME_3_PIC']; ?>" alt="" class="img-responsive"> </div>
           <div class="col-xs-12 col-md-8">
             <h3 class="text-capitalize"><?php echo $lang['LILY_ITEM_NAME_3']; ?><br>
-              <span>1,5l/3l/4,5l</span></h3>
+              <span><?php echo $lang['LILY_ITEM_3_SPECS']; ?></span></h3>
             <ul>
               <?php echo $lang['LILY_ITEM_NAME_3_DESC']; ?>
             </ul>
           </div>
-          <a href="termeknezet.html">
+          <a href="termeknezet.php?id=3">
           <button class="btn btn-primary text-uppercase"><?php echo $lang['LILY_BUTTON']; ?></button>
           </a> </div>
         <div class="termekek col-xs-12 col-md-6 bg4">
           <div class="col-xs-12 col-md-4"> <img src="<?php echo $lang['LILY_ITEM_NAME_4_PIC']; ?>" alt="" class="img-responsive"> </div>
           <div class="col-xs-12 col-md-8">
             <h3 class="text-capitalize"><?php echo $lang['LILY_ITEM_NAME_4']; ?><br>
-              <span>1,5l/3l/4,5l</span></h3>
+              <span><?php echo $lang['LILY_ITEM_4_SPECS']; ?></span></h3>
             <ul>
               <?php echo $lang['LILY_ITEM_NAME_4_DESC']; ?>
             </ul>
           </div>
-          <a href="termeknezet.html">
+          <a href="termeknezet.php?id=4">
           <button class="btn btn-primary text-uppercase"><?php echo $lang['LILY_BUTTON']; ?></button>
           </a> </div>
       </div>
@@ -133,36 +133,36 @@
           <div class="col-xs-12 col-md-4"> <img src="<?php echo $lang['LILY_ITEM_NAME_5_PIC']; ?>" alt="" class="img-responsive"> </div>
           <div class="col-xs-12 col-md-8">
             <h3 class="text-capitalize"><?php echo $lang['LILY_ITEM_NAME_5']; ?><br>
-              <span>3kg/6kg</span></h3>
+              <span><?php echo $lang['LILY_ITEM_5_SPECS']; ?></span></h3>
             <ul>
               <?php echo $lang['LILY_ITEM_NAME_5_DESC']; ?>
             </ul>
           </div>
-          <a href="termeknezet.html">
+          <a href="termeknezet.php?id=5">
           <button class="btn btn-primary text-uppercase"><?php echo $lang['LILY_BUTTON']; ?></button>
           </a> </div>
         <div class="termekek col-xs-12 col-md-6 bg2">
           <div class="col-xs-12 col-md-4"> <img src="<?php echo $lang['LILY_ITEM_NAME_6_PIC']; ?>" alt="" class="img-responsive"> </div>
           <div class="col-xs-12 col-md-8">
             <h3 class="text-capitalize"><?php echo $lang['LILY_ITEM_NAME_6']; ?><br>
-              <span>3kg/6kg</span></h3>
+              <span><?php echo $lang['LILY_ITEM_6_SPECS']; ?></span></h3>
             <ul>
               <?php echo $lang['LILY_ITEM_NAME_6_DESC']; ?>
             </ul>
           </div>
-          <a href="termeknezet.html">
+          <a href="termeknezet.php?id=6">
           <button class="btn btn-primary text-uppercase"><?php echo $lang['LILY_BUTTON']; ?></button>
           </a> </div>
         <div class="termekek col-xs-12 col-md-6 bg3">
           <div class="col-xs-12 col-md-4"> <img src="<?php echo $lang['LILY_ITEM_NAME_7_PIC']; ?>" alt="" class="img-responsive"> </div>
           <div class="col-xs-12 col-md-8">
             <h3 class="text-capitalize"><?php echo $lang['LILY_ITEM_NAME_7']; ?><br>
-              <span>9kg</span></h3>
+              <span><?php echo $lang['LILY_ITEM_7_SPECS']; ?></span></h3>
             <ul>
               <?php echo $lang['LILY_ITEM_NAME_7_DESC']; ?>
             </ul>
           </div>
-          <a href="termeknezet.html">
+          <a href="termeknezet.php?id=7">
           <button class="btn btn-primary text-uppercase"><?php echo $lang['LILY_BUTTON']; ?></button>
           </a> </div>
         <div class="termekek col-xs-12 col-md-6 bg4">
@@ -174,7 +174,7 @@
               <?php echo $lang['LILY_ITEM_NAME_8_DESC']; ?>
             </ul>
           </div>
-          <a href="termeknezet.html">
+          <a href="termeknezet.php?id=8">
           <button class="btn btn-primary text-uppercase"><?php echo $lang['LILY_BUTTON']; ?></button>
           </a> </div>
       </div>

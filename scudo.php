@@ -73,24 +73,24 @@
         <div class="col-xs-12 col-md-4"> <img src="<?php echo $lang['SCUDO_ITEM_NAME_1_PIC']; ?>" alt="" class="img-responsive"> </div>
         <div class="col-xs-12 col-md-8">
           <h3 class="text-capitalize"><?php echo $lang['SCUDO_ITEM_NAME_1']; ?><br>
-            <span>1,5l / 3l /4,5l</span></h3>
+            <span><?php echo $lang['SCUDO_ITEM_1_SPECS']; ?></span></h3>
           <ul>
             <?php echo $lang['SCUDO_ITEM_NAME_1_DESC']; ?>
           </ul>
         </div>
-        <a href="termeknezet.html">
+        <a href="termeknezet.php?id=9">
         <button class="btn btn-primary text-uppercase"><?php echo $lang['SCUDO_ITEM_BUTTON']; ?></button>
         </a> </div>
       <div class="termekek col-xs-12 col-md-6 bg2">
         <div class="col-xs-12 col-md-4"> <img src="<?php echo $lang['SCUDO_ITEM_NAME_2_PIC']; ?>" alt="" class="img-responsive"> </div>
         <div class="col-xs-12 col-md-8">
           <h3 class="text-capitalize"><?php echo $lang['SCUDO_ITEM_NAME_2']; ?><br>
-            <span>1,5l / 3l /4,5l</span></h3>
+            <span><?php echo $lang['SCUDO_ITEM_2_SPECS']; ?></span></h3>
           <ul>
             <?php echo $lang['SCUDO_ITEM_NAME_2_DESC']; ?>
           </ul>
         </div>
-        <a href="termeknezet.html">
+        <a href="termeknezet.php?id=10">
         <button class="btn btn-primary text-uppercase"><?php echo $lang['SCUDO_ITEM_BUTTON']; ?></button>
         </a> </div>
     </div>
@@ -115,7 +115,7 @@
             <?php echo $lang['SCUDO_ITEM_NAME_3_DESC']; ?>
           </ul>
         </div>
-        <a href="termeknezet.html">
+        <a href="termeknezet.php?id=11">
         <button class="btn btn-primary text-uppercase"><?php echo $lang['SCUDO_ITEM_BUTTON']; ?></button>
         </a> </div>
       <div class="termekek col-xs-12 col-md-6 bg2">
@@ -127,7 +127,7 @@
             <?php echo $lang['SCUDO_ITEM_NAME_4_DESC']; ?>
           </ul>
         </div>
-        <a href="termeknezet.html">
+        <a href="termeknezet.php?id=12">
         <button class="btn btn-primary text-uppercase"><?php echo $lang['SCUDO_ITEM_BUTTON']; ?></button>
         </a> </div>
     </div>
@@ -147,24 +147,24 @@
         <div class="col-xs-12 col-md-4"> <img src="<?php echo $lang['SCUDO_ITEM_NAME_5_PIC']; ?>" alt="" class="img-responsive"> </div>
         <div class="col-xs-12 col-md-8">
           <h3 class="text-capitalize"><?php echo $lang['SCUDO_ITEM_NAME_5']; ?><br>
-            <span>30 db</span></h3>
+            <span><?php echo $lang['SCUDO_ITEM_5_SPECS']; ?></span></h3>
           <ul>
             <?php echo $lang['SCUDO_ITEM_NAME_5_DESC']; ?>
           </ul>
         </div>
-        <a href="termeknezet.html">
+        <a href="termeknezet.php?id=13">
         <button class="btn btn-primary text-uppercase"><?php echo $lang['SCUDO_ITEM_BUTTON']; ?></button>
         </a> </div>
       <div class="termekek col-xs-12 col-md-6 bg2">
         <div class="col-xs-12 col-md-4"> <img src="<?php echo $lang['SCUDO_ITEM_NAME_6_PIC']; ?>" alt="" class="img-responsive"> </div>
         <div class="col-xs-12 col-md-8">
           <h3 class="text-capitalize"><?php echo $lang['SCUDO_ITEM_NAME_6']; ?><br>
-            <span>30 db</span></h3>
+            <span><?php echo $lang['SCUDO_ITEM_6_SPECS']; ?></span></h3>
           <ul>
             <?php echo $lang['SCUDO_ITEM_NAME_6_DESC']; ?>
           </ul>
         </div>
-        <a href="termeknezet.html">
+        <a href="termeknezet.php?id=14">
         <button class="btn btn-primary text-uppercase"><?php echo $lang['SCUDO_ITEM_BUTTON']; ?></button>
         </a> </div>
     </div>
@@ -184,60 +184,60 @@
         <div class="col-xs-12 col-md-4"> <img src="<?php echo $lang['SCUDO_ITEM_NAME_7_PIC']; ?>" alt="" class="img-responsive"> </div>
         <div class="col-xs-12 col-md-8">
           <h3 class="text-capitalize"><?php echo $lang['SCUDO_ITEM_NAME_7']; ?><br>
-            <span>750 ml</span></h3>
+            <span><?php echo $lang['SCUDO_ITEM_7_SPECS']; ?></span></h3>
           <ul>
             <?php echo $lang['SCUDO_ITEM_NAME_7_DESC']; ?>
           </ul>
         </div>
-        <a href="termeknezet.html">
+        <a href="termeknezet.php?id=15">
         <button class="btn btn-primary text-uppercase"><?php echo $lang['SCUDO_ITEM_BUTTON']; ?></button>
         </a> </div>
       <div class="termekek col-xs-12 col-md-6 bg2">
         <div class="col-xs-12 col-md-4"> <img src="<?php echo $lang['SCUDO_ITEM_NAME_8_PIC']; ?>" alt="" class="img-responsive"> </div>
         <div class="col-xs-12 col-md-8">
           <h3 class="text-capitalize"><?php echo $lang['SCUDO_ITEM_NAME_8']; ?><br>
-            <span>500 ml</span></h3>
+            <span><?php echo $lang['SCUDO_ITEM_8_SPECS']; ?></span></h3>
           <ul>
             <?php echo $lang['SCUDO_ITEM_NAME_8_DESC']; ?>
           </ul>
         </div>
-        <a href="termeknezet.html">
+        <a href="termeknezet.php?id=16">
         <button class="btn btn-primary text-uppercase"><?php echo $lang['SCUDO_ITEM_BUTTON']; ?></button>
         </a> </div>
       <div class="termekek col-xs-12 col-md-6 bg3">
         <div class="col-xs-12 col-md-4"> <img src="<?php echo $lang['SCUDO_ITEM_NAME_9_PIC']; ?>" alt="" class="img-responsive"> </div>
         <div class="col-xs-12 col-md-8">
           <h3 class="text-capitalize"><?php echo $lang['SCUDO_ITEM_NAME_9']; ?><br>
-            <span>750 ml</span></h3>
+            <span><?php echo $lang['SCUDO_ITEM_9_SPECS']; ?></span></h3>
           <ul>
             <?php echo $lang['SCUDO_ITEM_NAME_9_DESC']; ?>
           </ul>
         </div>
-        <a href="termeknezet.html">
+        <a href="termeknezet.php?id=17">
         <button class="btn btn-primary text-uppercase"><?php echo $lang['SCUDO_ITEM_BUTTON']; ?></button>
         </a> </div>
       <div class="termekek col-xs-12 col-md-6 bg4">
         <div class="col-xs-12 col-md-4"> <img src="<?php echo $lang['SCUDO_ITEM_NAME_10_PIC']; ?>" alt="" class="img-responsive"> </div>
         <div class="col-xs-12 col-md-8">
           <h3 class="text-capitalize"><?php echo $lang['SCUDO_ITEM_NAME_10']; ?><br>
-            <span>750 ml</span></h3>
+            <span><?php echo $lang['SCUDO_ITEM_10_SPECS']; ?></span></h3>
           <ul>
             <?php echo $lang['SCUDO_ITEM_NAME_10_DESC']; ?>
           </ul>
         </div>
-        <a href="termeknezet.html">
+        <a href="termeknezet.php?id=18">
         <button class="btn btn-primary text-uppercase"><?php echo $lang['SCUDO_ITEM_BUTTON']; ?></button>
         </a></div>
       <div class="termekek col-xs-12 col-md-6 bg1">
         <div class="col-xs-12 col-md-4"> <img src="<?php echo $lang['SCUDO_ITEM_NAME_11_PIC']; ?>" alt="" class="img-responsive"> </div>
         <div class="col-xs-12 col-md-8">
           <h3 class="text-capitalize"><?php echo $lang['SCUDO_ITEM_NAME_11']; ?><br>
-            <span>1000 ml</span></h3>
+            <span><?php echo $lang['SCUDO_ITEM_11_SPECS']; ?></span></h3>
           <ul>
             <?php echo $lang['SCUDO_ITEM_NAME_11_DESC']; ?>
           </ul>
         </div>
-        <a href="termeknezet.html">
+        <a href="termeknezet.php?id=19">
         <button class="btn btn-primary text-uppercase"><?php echo $lang['SCUDO_ITEM_BUTTON']; ?></button>
         </a> </div>
     </div>
