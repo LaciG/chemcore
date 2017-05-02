@@ -84,7 +84,18 @@ $lang['MESSAGE_REST'] ="Köszönjük, amint tudunk kapcsoaltba lépünk önnel."
     $lang['LILY_ITEM_NAME_2'] = "Mosógél kapszula white";
     $lang['LILY_ITEM_2_SPECS'] = "15 db";
     $lang['LILY_ITEM_NAME_2_DESC'] = "<li>Kétkamrás mosógél kapszula, mosógél koncentrátum és folteltávolító adalékanyaggal-és optikai fehérítővel a kristálytiszta fehér ruhákért – 2/1-ben, praktikus előre kiadagolt formában. </li>";
-    $lang['LILY_ITEM_NAME_2_INGR'] = "";
+    $lang['LILY_ITEM_NAME_2_INGR'] = "Glycereth-6 Cocoate
+Glycerin
+Cocamide MEA
+Aqua
+Polyvinyl Alcohol
+MIPA Laureth Sulfate
+PEG-4 Rapeseedamide
+Sodium diethylenetriamine pentamethylene phosphonat Perfume
+Propylene Glycol Colorant
+PVP
+Sodium Formate Enzyme - Subtilisin Denatonium Benzoate
+Disodium 2,2'-([1,1'-biphenyl]- 4,4'diyldivinylene)bis(benzenesulphonate)";
     
     $lang['LILY_ITEM_NAME_3_PIC'] = "img/mososzer-color.png";
     $lang['LILY_ITEM_NAME_3'] = "Mosószer color";
@@ -93,7 +104,12 @@ $lang['MESSAGE_REST'] ="Köszönjük, amint tudunk kapcsoaltba lépünk önnel."
               <li>Egyaránt használható gépi illetve kézi mosáshoz is.</li>
               <li>Minden ruhatípushoz alkalmazható, védi és megőrzi ruhái eredeti színét.</li>
               <li>30/45/90 mosás</li>";
-    $lang['LILY_ITEM_NAME_3_INGR'] = "";
+    $lang['LILY_ITEM_NAME_3_INGR'] = "Aqua
+Sodium Laureth Sulphate
+Alcohols, C13-15 Ethoxylated, 7EO, Pareth Benzensulfonic acid deriv. C10-13 alkyl, Na-salt Fatty acids, coco potassium salts
+Sodium Chloride Phosphonates DTPMP Na7
+Enzymes (Protease) Subtilisin Hydroxyethyl cellulose 1,2- Benzizotiazolin-3-one Perfume
+Coloring agent";
     
     $lang['LILY_ITEM_NAME_4_PIC'] = "img/mososzer-white.png";
     $lang['LILY_ITEM_NAME_4'] = "Mosószer white";
@@ -102,7 +118,12 @@ $lang['MESSAGE_REST'] ="Köszönjük, amint tudunk kapcsoaltba lépünk önnel."
               <li>Egyaránt használható gépi illetve kézi mosáshoz is.</li>
               <li>Fehér és kevésbé színtartó ruhák mosásához ajánlott, fehérítő adalékot tartalmazó koncentrált formula.</li>
               <li>30/45/90 mosás</li>";
-    $lang['LILY_ITEM_NAME_4_INGR'] = "";
+    $lang['LILY_ITEM_NAME_4_INGR'] = "Aqua
+Sodium Laureth Sulphate
+Alcohols, C13-15 Ethoxylated, 7EO, Pareth Benzensulfonic acid deriv. C10-13 alkyl, Na-salt Fatty acids, coco potassium salts
+Sodium Chloride Phosphonates DTPMP Na7
+Enzymes (Protease) Hydroxyethyl cellulose Optical brightener 1,2- Benzizotiazolin-3-one Perfume
+Disodium 2,2'-([1,1'-biphenyl]- 4,4'diyldivinylene)bis(benzenesulphonate)";
 
 
     $lang['LILY_TITLE_2'] = "Lily Mosószerek";
@@ -112,27 +133,63 @@ $lang['MESSAGE_REST'] ="Köszönjük, amint tudunk kapcsoaltba lépünk önnel."
     $lang['LILY_ITEM_5_SPECS'] = "3kg/6kg";
     $lang['LILY_ITEM_NAME_5_DESC'] = "<li>30/60 mosás</li>
               <li>Minőségi mosópor színes ruhákhoz ajánlva</li>";
-    $lang['LILY_ITEM_NAME_5_INGR'] = "";
+    $lang['LILY_ITEM_NAME_5_INGR'] = "Sodium Sulfate
+Sodium Carbonate Zeolit
+Sodium Dodecylbenzene Sulfonate Sodium Metasilicate
+Dodecylbenzene Sulfonic Acid C12-15 Pareth-7
+Sulfuric Acid
+mono – C12-18- Alkyl Esters Sodium Salts,
+Alcohols C-13-15 Ethoxylate
+Alkyl polyglycol ether C12- C18 with EO
+Soap (Fatty Acids C12-C18
+Phosphonates Polycarboxylates
+Aliphatic Hydrocarbons Sodium Chloride
+Perfume Enzymes";
 
     $lang['LILY_ITEM_NAME_6_PIC'] = "img/mosopor-white.png";
     $lang['LILY_ITEM_NAME_6'] = "Mosópor white";
     $lang['LILY_ITEM_6_SPECS'] = "3kg/6kg";
     $lang['LILY_ITEM_NAME_6_DESC'] = "<li>K30/60 mosás</li>
               <li>Minőségi mosóspor, kifejezetten fehér és nem színtartó ruhák, pelenkák mosásához, aktív folteltávolító hatással.</li>";
-    $lang['LILY_ITEM_NAME_6_INGR'] = "";
+    $lang['LILY_ITEM_NAME_6_INGR'] = "Sodium Sulfate
+Sodium Carbonate Zeolit
+Sodium Percarbonate
+Sodium Dodecylbenzene Sulfonate Sodium Metasilicate
+Dodecylbenzene Sulfonic Acid C12-15 Pareth-7
+Sulfuric Acid mono – C12-18- Alkyl Esters Sodium Salts Alcohols C-13-15 Ethoxylate
+Alkyl polyglycol ether C12- C18 with EO
+Soap (Fatty Acids C12-C18
+Phosphonates Polycarboxylates
+Aliphatic Hydrocarbons Sodium Chloride
+Perfume Enzymes
+Disodium 2,2'-([1,1'-biphenyl]- 4,4'diyldivinylene)bis(benzenesulphonate)";
     
     $lang['LILY_ITEM_NAME_7_PIC'] = "img/mosopor-universal.png";
     $lang['LILY_ITEM_NAME_7'] = "Mosópor universal";
     $lang['LILY_ITEM_7_SPECS'] = "9kg";
     $lang['LILY_ITEM_NAME_7_DESC'] = "<li>90 mosás</li>
               <li>Minőségi mosóspor színes és fehér ruhákhoz egyaránt ajánlva</li>";
-    $lang['LILY_ITEM_NAME_7_INGR'] = "";
+    $lang['LILY_ITEM_NAME_7_INGR'] = "Sodium Sulfate
+Sodium Carbonate Zeolit
+Sodium Percarbonate
+Sodium Dodecylbenzene Sulfonate Sodium Metasilicate
+Dodecylbenzene Sulfonic Acid C12-15 Pareth-7
+Sulfuric Acid mono – C12-18- Alkyl Esters Sodium Salts Alcohols C-13-15 Ethoxylate
+Alkyl polyglycol ether C12- C18 with EO
+Soap (Fatty Acids C12-C18
+Phosphonates Polycarboxylates
+Aliphatic Hydrocarbons Sodium Chloride
+Perfume Enzymes
+Disodium 2,2'-([1,1'-biphenyl]- 4,4'diyldivinylene)bis(benzenesulphonate)";
     
     $lang['LILY_ITEM_NAME_8_PIC'] = "img/textiloblito.png";
     $lang['LILY_ITEM_NAME_8'] = "textilöblítő";
     $lang['LILY_ITEM_8_SPECS'] = "<span>1 l-es kiszerelésben | 3 féle illattal: friss üde óceán illattal (kék) | selymes édes illattal (rózsa) kellemes parfüm illattal (sárga)</span>";
     $lang['LILY_ITEM_NAME_8_DESC'] = "<li>Szálpuhító hatású, ezáltal óvja a textil szálakat, kellemes illatot biztosít ruhái számára.</li>";
-    $lang['LILY_ITEM_NAME_8_INGR'] = "";
+    $lang['LILY_ITEM_NAME_8_INGR'] = "Aqua
+Esterquat Propan-2-ol
+1,2- Benzizotiazolin-3-one Perfume
+Citric acid Colouring agent";
     
     $lang['LILY_ITEM_BUTTON'] = "Részletek";
 //-----//
@@ -146,7 +203,10 @@ $lang['MESSAGE_REST'] ="Köszönjük, amint tudunk kapcsoaltba lépünk önnel."
         $lang['SCUDO_ITEM_NAME_1_DESC'] = "<li>Használható gépi illetve kézi mosáshoz is egyaránt.</li>
             <li>Minden ruhatípushoz alkalmazható, védi és megőrzi ruhái eredeti színét.</li>
             <li>15/30/45 mosáshoz</li>";
-        $lang['SCUDO_ITEM_NAME_1_INGR'] = "";
+        $lang['SCUDO_ITEM_NAME_1_INGR'] = "Aqua
+Sodium Laureth Sulphate Alcohols, C13-15 Ethoxylated, 7EO, Pareth
+Sodium Chloride Phosphonates DTPMP Na7
+Enzymes (Protease) Hydroxyethyl cellulose 1,2- Benzizotiazolin-3-one Perfume Coloring agent";
 
         $lang['SCUDO_ITEM_NAME_2_PIC'] = "img/scudo-mosogel-white.png";
         $lang['SCUDO_ITEM_NAME_2'] = "Mosógél white";
@@ -163,13 +223,19 @@ $lang['MESSAGE_REST'] ="Köszönjük, amint tudunk kapcsoaltba lépünk önnel."
         $lang['SCUDO_ITEM_NAME_3'] = "konyhai mosogatószer";
         $lang['SCUDO_ITEM_NAME_3_SPECS'] = "0,5l/1l | Citrom és zöldalma illattal";
         $lang['SCUDO_ITEM_NAME_3_DESC'] = "Tökéletesen eltávolítja a zsírt és az olajos szennyeződéseket.";
-        $lang['SCUDO_ITEM_NAME_3_INGR'] = "";
+        $lang['SCUDO_ITEM_NAME_3_INGR'] = "Aqua
+Sodium Laureth Sulphate Alcohols, C13-15 Ethoxylated, 7EO, Pareth
+Sodium Chloride Phosphonates DTPMP Na7 1,2- Benzizotiazolin-3-one
+Perfume Coloring agent";
         
         $lang['SCUDO_ITEM_NAME_4_PIC'] = "img/scudo-konyhai-mosogatoszer5l.png";
         $lang['SCUDO_ITEM_NAME_4'] = "konyhai mosogatószer";
         $lang['SCUDO_ITEM_NAME_4_SPECS'] = "5l | Praktikus nagykiszerelés | Friss citrusos illattal | Professzionális - és lakossági használatra";
         $lang['SCUDO_ITEM_NAME_4_DESC'] = "<li>Tökéletesen eltávolítja a zsírt és az olajos szennyeződéseket.</li>";
-        $lang['SCUDO_ITEM_NAME_4_INGR'] = "";
+        $lang['SCUDO_ITEM_NAME_4_INGR'] = "Aqua
+Sodium Laureth Sulphate
+Sodium Chloride Phosphonates DTPMP Na7 1,2- Benzizotiazolin-3-one
+Perfume Coloring agent";
 
     $lang['SCUDO_TITLE_3'] = "scudo mosógél kapszulák";
 
@@ -177,13 +243,34 @@ $lang['MESSAGE_REST'] ="Köszönjük, amint tudunk kapcsoaltba lépünk önnel."
         $lang['SCUDO_ITEM_NAME_5'] = "mosógél kapszula color";
         $lang['SCUDO_ITEM_5_SPECS'] = "30 db";
         $lang['SCUDO_ITEM_NAME_5_DESC'] = "<li>Egykamrás mosógél kapszula, koncentrált mosószer, praktikus előre kiadagolt formában, aktív színvédelemmel.</li>";
-        $lang['SCUDO_ITEM_NAME_5_INGR'] = "";
+        $lang['SCUDO_ITEM_NAME_5_INGR'] = "Glycereth-6 Cocoate
+Glycerin
+Cocamide MEA
+Aqua
+Polyvinyl Alcohol
+MIPA Laureth Sulfate
+PEG-4 Rapeseedamide
+Sodium diethylenetriamine pentamethylene phosphonat Perfume
+Propylene Glycol Colorant
+PVP
+Sodium Formate Subtilisin Denatonium Benzoate";
         
         $lang['SCUDO_ITEM_NAME_6_PIC'] = "img/scudo-mosogel-kapszula-white.png";
         $lang['SCUDO_ITEM_NAME_6'] = "Mosógél kapszula white";
         $lang['SCUDO_ITEM_6_SPECS'] = "30 db";
         $lang['SCUDO_ITEM_NAME_6_DESC'] = "<li>Egykamrás mosógél kapszula, koncentrált mosószer, praktikus előre kiadagolt formában, aktív színvédelemmel.</li>";
-        $lang['SCUDO_ITEM_NAME_6_INGR'] = "";
+        $lang['SCUDO_ITEM_NAME_6_INGR'] = "Glycereth-6 Cocoate
+Glycerin
+Cocamide MEA
+Aqua
+Polyvinyl Alcohol
+MIPA Laureth Sulfate
+PEG-4 Rapeseedamide
+Sodium diethylenetriamine pentamethylene phosphonat Perfume
+Propylene Glycol Colorant
+PVP
+Sodium Formate Subtilisin Denatonium Benzoate
+Disodium 2,2'-([1,1'-biphenyl]- 4,4'diyldivinylene)bis(benzenesulphonate)";
 
     $lang['SCUDO_TITLE_4'] = "scudo tisztítószerek";
 
@@ -192,33 +279,50 @@ $lang['MESSAGE_REST'] ="Köszönjük, amint tudunk kapcsoaltba lépünk önnel."
         $lang['SCUDO_ITEM_7_SPECS'] = "750 ml";
         $lang['SCUDO_ITEM_NAME_7_DESC'] = "<li>A fürdőszobai tisztító eltávolítja a vízkövet, szappanmaradékokat és egyéb szennyeződéseket is fürdőszobájában.</li>
             <li>Használata után csillogást biztosít.</li>";
-        $lang['SCUDO_ITEM_NAME_7_INGR'] = "";
+        $lang['SCUDO_ITEM_NAME_7_INGR'] = "Aqua Alkyldimethylamine oxide Phosphonates DTMP Na7 Citric acid Propan-2-ol Perfume";
         
         $lang['SCUDO_ITEM_NAME_8_PIC'] = "img/scudo-fa-butorapolo-folyadek.png";
         $lang['SCUDO_ITEM_NAME_8'] = "fa - és bútorápoló folyadék";
         $lang['SCUDO_ITEM_8_SPECS'] = "500 ml";
         $lang['SCUDO_ITEM_NAME_8_DESC'] = "<li>Kényelmesen és gyorsan tisztítja, ápolja és óvja a bútorokat.</li>
             <li>Kellemes illatot kölcsönöz, és hosszantartó fényről gondoskodik.</li>";
-        $lang['SCUDO_ITEM_NAME_8_INGR'] = "";
+        $lang['SCUDO_ITEM_NAME_8_INGR'] = "Aqua
+Siliconoil Alkyldimethylbenzylammonium Chloride Perfume
+1,2- Benzizotiazolin-3-one Propan-2-ol
+Coloring agent";
         
         $lang['SCUDO_ITEM_NAME_9_PIC'] = "img/scudo-muanyagbutor-tisztito-folyadek.png";
         $lang['SCUDO_ITEM_NAME_9'] = "műanyagbútor - tisztító folyadék";
         $lang['SCUDO_ITEM_9_SPECS'] = "750 ml";
         $lang['SCUDO_ITEM_NAME_9_DESC'] = "<li>Kényelmesen és gyorsan tisztítja speciálisan a műanyag bútorokat.</li>
             <li>Friss illatot hagy maga után.</li>";
-        $lang['SCUDO_ITEM_NAME_9_INGR'] = "";
+        $lang['SCUDO_ITEM_NAME_9_INGR'] = "Aqua
+Phosphonates – DTMP Na7 Alkyldimethylbenzylammonium Chloride Perfume
+1,2- Benzizotiazolin-3-one Propan-2-ol
+Coloring agent";
         
         $lang['SCUDO_ITEM_NAME_10_PIC'] = "img/scudo-zsiroldo.png";
         $lang['SCUDO_ITEM_NAME_10'] = "zsíroldó";
         $lang['SCUDO_ITEM_10_SPECS'] = "750 ml";
         $lang['SCUDO_ITEM_NAME_10_DESC'] = "<li>Használatával a legmakacsabb zsíros szennyeződések is könnyedén eltávolíthatóak.</li>";
-        $lang['SCUDO_ITEM_NAME_10_INGR'] = "";
+        $lang['SCUDO_ITEM_NAME_10_INGR'] = "Aqua
+Sodium Hydroxide
+Anionic Polyacrylate
+Alcohols, C13-15 Ethoxylated, 8EO, Pareth Propan-2-ol
+Enzymes (Protease)
+Perfume";
         
         $lang['SCUDO_ITEM_NAME_11_PIC'] = "img/scudo-vizlagyito-gel.png";
         $lang['SCUDO_ITEM_NAME_11'] = "vízlágyító gél";
         $lang['SCUDO_ITEM_11_SPECS'] = "1000 ml";
         $lang['SCUDO_ITEM_NAME_11_DESC'] = "<li>Hatékonyan lágyítja a vizet, ahol arra szüksége van a háztartásban, megfelelően lágy vizet biztosít a háztartás technikai készülékei számára.</li>";
-        $lang['SCUDO_ITEM_NAME_11_INGR'] = "";
+        $lang['SCUDO_ITEM_NAME_11_INGR'] = "Aqua
+Anionic Polyacrylate
+Alcohols, C13-15 Ethoxylated, 7EO, Pareth Perfume
+Hydroxyethyl cellulose
+1,2- Benzizotiazolin-3-one
+Citric acid
+Coloring agent";
 
     $lang['SCUDO_ITEM_BUTTON'] = "Részletek";
 //-----//

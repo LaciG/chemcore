@@ -6,7 +6,7 @@
     } elseif($id == 3){
         echo $lang['LILY_ITEM_NAME_3_DESC'];
     } elseif($id == 4){
-        echo $lang['LILY_ITEM_NAME_4_SDESC'];
+        echo $lang['LILY_ITEM_NAME_4_DESC'];
     } elseif($id == 5){
         echo $lang['LILY_ITEM_NAME_5_DESC'];
     } elseif($id == 6){
