@@ -26,7 +26,7 @@
 <header>
   <div class="container-fluid">
     <div class="row">
-      <div id="logo" class="text-center col-sm-offset-4 col-sm-4"> <a href="index.html"><img src="img/logo.png" alt="logo"></a> </div>
+      <div id="logo" class="text-center col-sm-offset-4 col-sm-4"> <a href="index.php"><img src="img/logo.png" alt="logo"></a> </div>
       <div class="col-sm-offset-1 col-sm-1 text-right dropdown" id="lang"> <a id="dLabel" type="button" class="text-uppercase" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?php echo $lang['MENU_HUEN']; ?><span class="caret"></span> </a>
         <ul class="dropdown-menu text-uppercase" aria-labelledby="dLabel">
           <li><a href="?lang=hu"><?php echo $lang['Hungary']; ?></a></li>
@@ -50,7 +50,7 @@
           <ul class="nav navbar-nav">
             <li><a href="lily.php" class="text-uppercase"><?php echo $lang['MENU_1']; ?> <span class="sr-only">(current)</span></a></li>
             <li class="active"><a href="scudo.php" class="text-uppercase"><?php echo $lang['MENU_2']; ?></a></li>
-            <li><a href="index.php#contact" class="text-uppercase"><?php echo $lang['MENU_3']; ?></a></li>
+            <li><a href="index.php?id=contact" class="text-uppercase"><?php echo $lang['MENU_3']; ?></a></li>
           </ul>
         </div>
         <!-- /.navbar-collapse --> 
@@ -253,8 +253,8 @@
         <ul class="nav navbar-nav">
           <li><a href="lily.php" class="text-uppercase"><?php echo $lang['MENU_1']; ?></a></li>
           <li><a href="scudo.php" class="text-uppercase"><?php echo $lang['MENU_2']; ?></a></li>
-          <li><a href="index.php#kapcsolat" class="text-uppercase"><?php echo $lang['MENU_3']; ?></a></li>
-          <li><a href="aszf.html" class="text-uppercase">ászf</a></li>
+          <li><a href="index.php?id=contact" class="text-uppercase"><?php echo $lang['MENU_3']; ?></a></li>
+          <li><a href="aszf.php" class="text-uppercase">ászf</a></li>
         </ul>
       </div>
       <div class="col-xs-12 col-sm-3 col-md-3">
